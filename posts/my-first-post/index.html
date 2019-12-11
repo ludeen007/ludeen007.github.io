@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>千里之行始于足下  | 配置VSCode远程开发</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.59.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="配置VSCode远程开发" />
+<meta property="og:description" content=" 注意在Win10上运行git-bash执行以下命令 REMOTEHOST=root@172.16.87.31
+scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub
+ssh $REMOTEHOST &ldquo;mkdir -p ~/.ssh &amp;&amp; chmod 700 ~/.ssh &amp;&amp; cat ~/tmp.pub &gt;&gt; ~/.ssh/authorized_keys &amp;&amp; chmod 600 ~/.ssh/authorized_keys &amp;&amp; rm -f ~/tmp.pub&rdquo;
+最后一步，在以下文件里添加远程主机的ip等信息 ~/.ssh/vscode-remote-config
+详见 https://code.visualstudio.com/docs/remote/troubleshooting#_configuring-key-based-authentication " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/my-first-post/" />
+
+<meta itemprop="name" content="配置VSCode远程开发">
+<meta itemprop="description" content=" 注意在Win10上运行git-bash执行以下命令 REMOTEHOST=root@172.16.87.31
+scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub
+ssh $REMOTEHOST &ldquo;mkdir -p ~/.ssh &amp;&amp; chmod 700 ~/.ssh &amp;&amp; cat ~/tmp.pub &gt;&gt; ~/.ssh/authorized_keys &amp;&amp; chmod 600 ~/.ssh/authorized_keys &amp;&amp; rm -f ~/tmp.pub&rdquo;
+最后一步，在以下文件里添加远程主机的ip等信息 ~/.ssh/vscode-remote-config
+详见 https://code.visualstudio.com/docs/remote/troubleshooting#_configuring-key-based-authentication ">
+
+
+
+<meta itemprop="wordCount" content="31">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="配置VSCode远程开发"/>
+<meta name="twitter:description" content=" 注意在Win10上运行git-bash执行以下命令 REMOTEHOST=root@172.16.87.31
+scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub
+ssh $REMOTEHOST &ldquo;mkdir -p ~/.ssh &amp;&amp; chmod 700 ~/.ssh &amp;&amp; cat ~/tmp.pub &gt;&gt; ~/.ssh/authorized_keys &amp;&amp; chmod 600 ~/.ssh/authorized_keys &amp;&amp; rm -f ~/tmp.pub&rdquo;
+最后一步，在以下文件里添加远程主机的ip等信息 ~/.ssh/vscode-remote-config
+详见 https://code.visualstudio.com/docs/remote/troubleshooting#_configuring-key-based-authentication "/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      千里之行始于足下
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">配置VSCode远程开发</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="0001-01-01T00:00:00Z">January 1, 0001</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<h1 id="注意在win10上运行git-bash执行以下命令">注意在Win10上运行git-bash执行以下命令</h1>
+
+<p>REMOTEHOST=root@172.16.87.31</p>
+
+<p>scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub</p>
+
+<p>ssh $REMOTEHOST &ldquo;mkdir -p ~/.ssh &amp;&amp; chmod 700 ~/.ssh &amp;&amp; cat ~/tmp.pub &gt;&gt; ~/.ssh/authorized_keys &amp;&amp; chmod 600 ~/.ssh/authorized_keys &amp;&amp; rm -f ~/tmp.pub&rdquo;</p>
+
+<h2 id="最后一步-在以下文件里添加远程主机的ip等信息">最后一步，在以下文件里添加远程主机的ip等信息</h2>
+
+<p>~/.ssh/vscode-remote-config</p>
+
+<h3 id="详见-https-code-visualstudio-com-docs-remote-troubleshooting-configuring-key-based-authentication">详见 <a href="https://code.visualstudio.com/docs/remote/troubleshooting#_configuring-key-based-authentication">https://code.visualstudio.com/docs/remote/troubleshooting#_configuring-key-based-authentication</a></h3>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2019 千里之行始于足下
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
