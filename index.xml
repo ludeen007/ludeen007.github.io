@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>VSCode launch</title>
+      <link>https://ludeen007.github.io/posts/vscode-launch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ludeen007.github.io/posts/vscode-launch/</guid>
+      <description>调试bash脚本 { // Use IntelliSense to learn about possible attributes. // Hover to view descriptions of existing attributes. // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387 &amp;rdquo;version&amp;rdquo;: &amp;rdquo;0.2.0&amp;rdquo;, &amp;rdquo;configurations&amp;rdquo;: [{ &amp;rdquo;type&amp;rdquo;: &amp;rdquo;bashdb&amp;rdquo;, &amp;rdquo;request&amp;rdquo;: &amp;rdquo;launch&amp;rdquo;, &amp;rdquo;name&amp;rdquo;: &amp;rdquo;Bash-Debug (select script from list of sh files)&amp;ldquo;, &amp;rdquo;cwd&amp;rdquo;: &amp;rdquo;${workspaceFolder}&amp;ldquo;, &amp;rdquo;program&amp;rdquo;: &amp;rdquo;${command:SelectScriptName}&amp;ldquo;, &amp;rdquo;args&amp;rdquo;: [] } ] }
+launch.json文件模板 { // Use IntelliSense to learn about possible attributes. // Hover to view descriptions of existing attributes. // For more information, visit: https://go.</description>
+    </item>
+    
+    <item>
       <title>配置VSCode远程开发</title>
       <link>https://ludeen007.github.io/posts/my-first-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
