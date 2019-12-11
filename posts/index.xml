@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 千里之行始于足下</title>
-    <link>http://example.org/posts/</link>
+    <link>https://ludeen007.github.io/posts/</link>
     <description>Recent content in Posts on 千里之行始于足下</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ludeen007.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>配置VSCode远程开发</title>
-      <link>http://example.org/posts/my-first-post/</link>
+      <link>https://ludeen007.github.io/posts/my-first-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
+      <guid>https://ludeen007.github.io/posts/my-first-post/</guid>
       <description> 注意在Win10上运行git-bash执行以下命令 REMOTEHOST=root@172.16.87.31
 scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub
 ssh $REMOTEHOST &amp;ldquo;mkdir -p ~/.ssh &amp;amp;&amp;amp; chmod 700 ~/.ssh &amp;amp;&amp;amp; cat ~/tmp.pub &amp;gt;&amp;gt; ~/.ssh/authorized_keys &amp;amp;&amp;amp; chmod 600 ~/.ssh/authorized_keys &amp;amp;&amp;amp; rm -f ~/tmp.pub&amp;rdquo;
