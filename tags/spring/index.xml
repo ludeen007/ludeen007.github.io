@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring on 千里之行始于足下</title>
+    <link>https://ludeen007.github.io/tags/spring/</link>
+    <description>Recent content in Spring on 千里之行始于足下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Dec 2019 18:42:55 +0800</lastBuildDate>
+    
+	<atom:link href="https://ludeen007.github.io/tags/spring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>《Spring揭秘》读书笔记</title>
+      <link>https://ludeen007.github.io/posts/reading-notes/unmask-spring/</link>
+      <pubDate>Wed, 11 Dec 2019 18:42:55 +0800</pubDate>
+      
+      <guid>https://ludeen007.github.io/posts/reading-notes/unmask-spring/</guid>
+      <description>Spring做了很多事情，但是归根到底是一些基本的思路，而所有这些思路最终都导向Spring的使命：简化Java开发 Spring通过下列四种策略来简化Java开发  基于POJO的轻量级、最小侵入式开发 通过依赖注入和面向接口编程实现松耦合 通过面向切面编程和惯例实现声明式编程 通过面向切面编程和模板消除样板式代码（boierplate code）  几乎Spring的每条特性都可以追溯到这四条策略之一，接下来分别对这四条策略进行阐述，并给出具体的代码说明Spring如何简化Java开发。</description>
+    </item>
+    
+    <item>
+      <title>《Spring微服务实战》读书笔记</title>
+      <link>https://ludeen007.github.io/posts/reading-notes/spring-microservice-in-action/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ludeen007.github.io/posts/reading-notes/spring-microservice-in-action/</guid>
+      <description> 构建分布式应用的常用模式  超时 重试 熔断 健壮性测试 限速节流 其他：动态服务发现、负载均衡运行的动态路由  </description>
+    </item>
+    
+  </channel>
+</rss>

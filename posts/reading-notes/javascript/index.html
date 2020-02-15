@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>千里之行始于足下  | 《Javascript高级程序设计》3e读书笔记</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.59.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="《Javascript高级程序设计》3e读书笔记" />
+<meta property="og:description" content="for-in语句遍历属性 2种值 基本类型值：Undefined Null Boolean Number String。按值复制。栈内存。非对象。 引用类型值：可能由多个值组成的对象。按引用复制。堆内存。是对象。
+函数参数只按值传递。即向参数传引用类型值时，会传这个值在内存中的地址复制给一个局部变量，因而这个局部变量的变化会反应在函数的外部 typeof instanceof 执行环境及作用域 4.4小结 数组 Array.length不是只读的。判断是否数组Array.isArray(val) 栈方法：push(), pop() 队列方法: shift() push() / unshift() pop() 重排序方法：sort() 默认按字符串从小到大排序，可用sort(compare)自定义排序 reverse()反转 操作方法：concat() 连接slice() 切片splice()多功能 位置方法：indexOf() lastIndexOf() 迭代方法：every() filter() forEach() map() some() 缩小方法: reduce() reduceRight()
+Date类型 Date.parse() Date.UTC() new Date() Date.new() 日期/时间组件方法：get/setDate()/Month()/seconds() Regexp类型 let expression = /pattern/flags; 模式pattern 标志flags: g全局模式 i不区分大小写 m多行模式 元字符（模式中使用元字符要转义） ( [ { \ ^ $ | ? * &#43; . ) ] } let pattern = /[bc]at/I;let pattern2 = new RegExp(&rdquo;[bc]at&rdquo;, &ldquo;I&rdquo;); 字面量模式等价的字符串 /[bc]at/&rdquo;\[bc\]at&rdquo; /." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ludeen007.github.io/posts/reading-notes/javascript/" />
+<meta property="article:published_time" content="2019-12-11T18:42:55+08:00" />
+<meta property="article:modified_time" content="2019-12-11T18:42:55+08:00" />
+<meta itemprop="name" content="《Javascript高级程序设计》3e读书笔记">
+<meta itemprop="description" content="for-in语句遍历属性 2种值 基本类型值：Undefined Null Boolean Number String。按值复制。栈内存。非对象。 引用类型值：可能由多个值组成的对象。按引用复制。堆内存。是对象。
+函数参数只按值传递。即向参数传引用类型值时，会传这个值在内存中的地址复制给一个局部变量，因而这个局部变量的变化会反应在函数的外部 typeof instanceof 执行环境及作用域 4.4小结 数组 Array.length不是只读的。判断是否数组Array.isArray(val) 栈方法：push(), pop() 队列方法: shift() push() / unshift() pop() 重排序方法：sort() 默认按字符串从小到大排序，可用sort(compare)自定义排序 reverse()反转 操作方法：concat() 连接slice() 切片splice()多功能 位置方法：indexOf() lastIndexOf() 迭代方法：every() filter() forEach() map() some() 缩小方法: reduce() reduceRight()
+Date类型 Date.parse() Date.UTC() new Date() Date.new() 日期/时间组件方法：get/setDate()/Month()/seconds() Regexp类型 let expression = /pattern/flags; 模式pattern 标志flags: g全局模式 i不区分大小写 m多行模式 元字符（模式中使用元字符要转义） ( [ { \ ^ $ | ? * &#43; . ) ] } let pattern = /[bc]at/I;let pattern2 = new RegExp(&rdquo;[bc]at&rdquo;, &ldquo;I&rdquo;); 字面量模式等价的字符串 /[bc]at/&rdquo;\[bc\]at&rdquo; /.">
+
+
+<meta itemprop="datePublished" content="2019-12-11T18:42:55&#43;08:00" />
+<meta itemprop="dateModified" content="2019-12-11T18:42:55&#43;08:00" />
+<meta itemprop="wordCount" content="119">
+
+
+
+<meta itemprop="keywords" content="读书笔记,Javascript,编程语言," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="《Javascript高级程序设计》3e读书笔记"/>
+<meta name="twitter:description" content="for-in语句遍历属性 2种值 基本类型值：Undefined Null Boolean Number String。按值复制。栈内存。非对象。 引用类型值：可能由多个值组成的对象。按引用复制。堆内存。是对象。
+函数参数只按值传递。即向参数传引用类型值时，会传这个值在内存中的地址复制给一个局部变量，因而这个局部变量的变化会反应在函数的外部 typeof instanceof 执行环境及作用域 4.4小结 数组 Array.length不是只读的。判断是否数组Array.isArray(val) 栈方法：push(), pop() 队列方法: shift() push() / unshift() pop() 重排序方法：sort() 默认按字符串从小到大排序，可用sort(compare)自定义排序 reverse()反转 操作方法：concat() 连接slice() 切片splice()多功能 位置方法：indexOf() lastIndexOf() 迭代方法：every() filter() forEach() map() some() 缩小方法: reduce() reduceRight()
+Date类型 Date.parse() Date.UTC() new Date() Date.new() 日期/时间组件方法：get/setDate()/Month()/seconds() Regexp类型 let expression = /pattern/flags; 模式pattern 标志flags: g全局模式 i不区分大小写 m多行模式 元字符（模式中使用元字符要转义） ( [ { \ ^ $ | ? * &#43; . ) ] } let pattern = /[bc]at/I;let pattern2 = new RegExp(&rdquo;[bc]at&rdquo;, &ldquo;I&rdquo;); 字面量模式等价的字符串 /[bc]at/&rdquo;\[bc\]at&rdquo; /."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://ludeen007.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      千里之行始于足下
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">《Javascript高级程序设计》3e读书笔记</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-12-11T18:42:55&#43;08:00">December 11, 2019</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<h3 id="for-in语句遍历属性">for-in语句遍历属性</h3>
+
+<h2 id="2种值">2种值</h2>
+
+<p>基本类型值：Undefined Null Boolean Number String。按值复制。栈内存。非对象。
+引用类型值：可能由多个值组成的对象。按引用复制。堆内存。是对象。</p>
+
+<h2 id="函数参数只按值传递-即向参数传引用类型值时-会传这个值在内存中的地址复制给一个局部变量-因而这个局部变量的变化会反应在函数的外部">函数参数只按值传递。即向参数传引用类型值时，会传这个值在内存中的地址复制给一个局部变量，因而这个局部变量的变化会反应在函数的外部</h2>
+
+<h2 id="typeof-instanceof-执行环境及作用域">typeof instanceof 执行环境及作用域</h2>
+
+<h2 id="4-4小结">4.4小结</h2>
+
+<h3 id="数组">数组</h3>
+
+<p>Array.length不是只读的。判断是否数组Array.isArray(val)
+栈方法：push(), pop()
+队列方法: shift() push() / unshift() pop()
+重排序方法：sort() 默认按字符串从小到大排序，可用sort(compare)自定义排序 reverse()反转
+操作方法：concat() 连接slice() 切片splice()多功能
+位置方法：indexOf() lastIndexOf()
+迭代方法：every() filter() forEach() map() some()
+缩小方法: reduce() reduceRight()</p>
+
+<h3 id="date类型">Date类型</h3>
+
+<p>Date.parse() Date.UTC() new Date() Date.new()
+日期/时间组件方法：get/setDate()/Month()/seconds()
+Regexp类型
+let expression = /pattern/flags;
+模式pattern
+标志flags: g全局模式 i不区分大小写 m多行模式
+元字符（模式中使用元字符要转义）
+( [ { \ ^ $ | ? * + .  ) ] }
+let pattern = /[bc]at/I;let pattern2 = new RegExp(&rdquo;[bc]at&rdquo;, &ldquo;I&rdquo;);
+字面量模式等价的字符串
+/[bc]at/&rdquo;\[bc\]at&rdquo;
+/.at&rdquo;\.at&rdquo;
+/\w\hello\123/&rdquo;\w\\hello\\123&rdquo;
+RegExp实例方法： exec() test()</p>
+
+<h3 id="function类型">Function类型</h3>
+
+<p>每个函数都是Function类型的实例。函数名是一个指向函数对象的指针。
+函数声明：会被预先读取，使其在任何代码执行前可用。
+函数表达式：被执行时才读取。</p>
+
+<h4 id="函数内部属性">函数内部属性</h4>
+
+<p>2个特殊对象：
+arguments：类数组对象，含所有参数。arguments.callee指向拥有这个arguments对象的函数（严格模式下不能用）。arguments.caller类似。
+this：this引用的是数据据以执行的环境对象。</p>
+
+<h4 id="函数的属性和方法">函数的属性和方法</h4>
+
+<p>length：函数希望接收的命名参数个数。
+prototype：引用类型，保存它们所有实例方法的真正所在。
+call() apply() bind()：传参，扩充函数赖以运行的作用域。
+函数声明 函数表达式 闭包</p>
+
+<h3 id="string类型">String类型</h3>
+
+<p>属性：length
+字符方法：charAt() charCodeAt() stringValue[i]
+字符串方法：concat() slice() indexOf() lastIndexOf() trim() toUpperCase() match() localCompare()</p>
+
+<h3 id="对象">对象</h3>
+
+<p>构造函数：通过new操作符来调用的函数</p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">读书笔记</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/javascript" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Javascript</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">编程语言</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/programming-languages/javascript/">javascript</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/reading-notes/unmask-spring/">《Spring揭秘》读书笔记</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/reading-notes/renjian-2e/">《人件》2e 读书笔记</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/reading-notes/progit/">《精通Git/Pro Git》 2e读书笔记</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/reading-notes/spring-microservice-in-action/">《Spring微服务实战》读书笔记</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://ludeen007.github.io/" >
+    &copy; 2020 千里之行始于足下
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

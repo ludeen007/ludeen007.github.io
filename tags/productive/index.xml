@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productive on 千里之行始于足下</title>
+    <link>https://ludeen007.github.io/tags/productive/</link>
+    <description>Recent content in Productive on 千里之行始于足下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Dec 2019 18:42:55 +0800</lastBuildDate>
+    
+	<atom:link href="https://ludeen007.github.io/tags/productive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>《人件》2e 读书笔记</title>
+      <link>https://ludeen007.github.io/posts/reading-notes/renjian-2e/</link>
+      <pubDate>Wed, 11 Dec 2019 18:42:55 +0800</pubDate>
+      
+      <guid>https://ludeen007.github.io/posts/reading-notes/renjian-2e/</guid>
+      <description> 我们必须学习如何多花时间在思考上，少花时间在实施上。我们只是做事，没时间思考工作自身 </description>
+    </item>
+    
+    <item>
+      <title>《精通Git/Pro Git》 2e读书笔记</title>
+      <link>https://ludeen007.github.io/posts/reading-notes/progit/</link>
+      <pubDate>Wed, 11 Dec 2019 18:42:55 +0800</pubDate>
+      
+      <guid>https://ludeen007.github.io/posts/reading-notes/progit/</guid>
+      <description>Git直接记录快照，而非差异比较 Figure 6. 工作目录、暂存区域以及 Git 仓库
+文件的3种状态：
+ 已修改modified 已暂存staged 已提交committed  基本的 Git 工作流程如下  在工作目录中修改文件。 暂存文件，将文件的快照放入暂存区域。 提交更新，找到暂存区域的文件，将快照永久性存储到 Git 仓库目录  Figure 8. 文件的状态变化周期
+工作目录下的文件的2种状态：已跟踪tracked，未跟踪untracked #查看提交2个历史及其文件修改 git log -p -2 #查看分支历史图 git log --graph #某次提交忘了某个文件的修改： git commit -m &#39;xx&#39; #不完整 git add filename #补漏 git commit --amend #提交到上一个commit #查看远程分支信息 git remote -v git remote show origin #修改/删除远程分支 git remote rename src dst git remote rm xxx  Git标签 #查看 git tag -l #创建 git tag -a xx -m &amp;quot;yy&amp;quot; git push origin tagname/--tags  Git命令别名 git config --global alias.</description>
+    </item>
+    
+  </channel>
+</rss>

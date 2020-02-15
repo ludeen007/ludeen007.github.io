@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on 千里之行始于足下</title>
+    <link>https://ludeen007.github.io/tags/git/</link>
+    <description>Recent content in Git on 千里之行始于足下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Dec 2019 18:42:55 +0800</lastBuildDate>
+    
+	<atom:link href="https://ludeen007.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>《精通Git/Pro Git》 2e读书笔记</title>
+      <link>https://ludeen007.github.io/posts/reading-notes/progit/</link>
+      <pubDate>Wed, 11 Dec 2019 18:42:55 +0800</pubDate>
+      
+      <guid>https://ludeen007.github.io/posts/reading-notes/progit/</guid>
+      <description>Git直接记录快照，而非差异比较 Figure 6. 工作目录、暂存区域以及 Git 仓库
+文件的3种状态：
+ 已修改modified 已暂存staged 已提交committed  基本的 Git 工作流程如下  在工作目录中修改文件。 暂存文件，将文件的快照放入暂存区域。 提交更新，找到暂存区域的文件，将快照永久性存储到 Git 仓库目录  Figure 8. 文件的状态变化周期
+工作目录下的文件的2种状态：已跟踪tracked，未跟踪untracked #查看提交2个历史及其文件修改 git log -p -2 #查看分支历史图 git log --graph #某次提交忘了某个文件的修改： git commit -m &#39;xx&#39; #不完整 git add filename #补漏 git commit --amend #提交到上一个commit #查看远程分支信息 git remote -v git remote show origin #修改/删除远程分支 git remote rename src dst git remote rm xxx  Git标签 #查看 git tag -l #创建 git tag -a xx -m &amp;quot;yy&amp;quot; git push origin tagname/--tags  Git命令别名 git config --global alias.</description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://ludeen007.github.io/posts/linux-bash-cmd/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ludeen007.github.io/posts/linux-bash-cmd/git/</guid>
+      <description> git命令 #对比两个分支 git diff branch1..branch2 #避免git push每次都要输入用户名和密码 (有安全风险) git config credential.helper store #当改了很多代码，却又只想提交某部分修改，用以下命令，详见https://stackoverflow.com/questions/1085162/commit-only-part-of-a-file-in-git git add --patch filename #格式化git commit message npx git-cz #添加子模块（一个git仓库为另一个git仓库下的子目录，同时保持独立的git记录） git submodule add https://github.com/chaconinc/DbConnector #详见 https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97 #修改分支名 git branch -m src dst #开分支 #1. 远程先开好分支然后拉到本地 git checkout -b feature-branch origin/feature-branch //检出远程的feature-branch分支到本地 #2. 本地先开好分支然后推送到远程 git checkout -b feature-branch //创建并切换到分支feature-branch git push origin feature-branch:feature-branch //推送本地的feature-branch(冒号前面的)分支到远程origin的feature-branch(冒号后面的)分支(没有会自动创建) #来自 &amp;lt;https://www.cnblogs.com/qyf404/p/git_push_local_branch_to_remote.html&amp;gt; #push/pull时，git协议不行就换http协议操作 #查询某个git仓库的hooks目录位置（一般来说是.git/hooks，但是submodule会有所不同） git rev-parse --git-path hooks #对比两个git分支，且忽略指定目录的不同 git diff alpha tmp --name-only | grep -v &amp;quot;crypto-config&amp;quot;  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>harbor.io on 千里之行始于足下</title>
+    <link>https://ludeen007.github.io/tags/harbor.io/</link>
+    <description>Recent content in harbor.io on 千里之行始于足下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://ludeen007.github.io/tags/harbor.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>搭建harbor.io私有容器仓库</title>
+      <link>https://ludeen007.github.io/posts/virtualization/docker/harbor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ludeen007.github.io/posts/virtualization/docker/harbor/</guid>
+      <description>#hosts 配置： #172.x.y.z harbor.io #登陆 docker login -u admin -p admin harbor.io #创建、改标签、推送镜像 docker build -t mynode:v1.0 . docker tag mynode:v1.0 harbor.io/nodejs/mynode:v1.0 docker push harbor.io/nodejs/mynode:v1.0  </description>
+    </item>
+    
+  </channel>
+</rss>

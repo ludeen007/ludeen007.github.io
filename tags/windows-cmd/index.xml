@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows CMD on 千里之行始于足下</title>
+    <link>https://ludeen007.github.io/tags/windows-cmd/</link>
+    <description>Recent content in Windows CMD on 千里之行始于足下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://ludeen007.github.io/tags/windows-cmd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows CMD命令</title>
+      <link>https://ludeen007.github.io/posts/windows-cmd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ludeen007.github.io/posts/windows-cmd/</guid>
+      <description> 定时关机 $$ 一分钟后强制关机 shutdown /s /t 60 /f  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>微服务 on 千里之行始于足下</title>
+    <link>https://ludeen007.github.io/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</link>
+    <description>Recent content in 微服务 on 千里之行始于足下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://ludeen007.github.io/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>《Spring微服务实战》读书笔记</title>
+      <link>https://ludeen007.github.io/posts/reading-notes/spring-microservice-in-action/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ludeen007.github.io/posts/reading-notes/spring-microservice-in-action/</guid>
+      <description> 构建分布式应用的常用模式  超时 重试 熔断 健壮性测试 限速节流 其他：动态服务发现、负载均衡运行的动态路由  </description>
+    </item>
+    
+  </channel>
+</rss>

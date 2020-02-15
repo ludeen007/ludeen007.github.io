@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>crontab on 千里之行始于足下</title>
+    <link>https://ludeen007.github.io/categories/crontab/</link>
+    <description>Recent content in crontab on 千里之行始于足下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://ludeen007.github.io/categories/crontab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>bash终端</title>
+      <link>https://ludeen007.github.io/posts/linux-bash-cmd/crontab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ludeen007.github.io/posts/linux-bash-cmd/crontab/</guid>
+      <description>技巧 #定期任务，修改/etc/crontab文件后，记得重启crontab服务(sudo systemctl restart crond.service)使修改生效 #任务例子 # For details see man 4 crontabs # Example of job definition: # .---------------- minute (0 - 59) # | .------------- hour (0 - 23) # | | .---------- day of month (1 - 31) # | | | .------- month (1 - 12) OR jan,feb,mar,apr ... # | | | | .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat # | | | | | # * * * * * user-name command to be executed # every minute * * * * * root date &amp;gt;&amp;gt; ~/workbench/crontab-output/every-minute.</description>
+    </item>
+    
+  </channel>
+</rss>

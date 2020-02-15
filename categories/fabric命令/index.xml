@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fabric命令 on 千里之行始于足下</title>
+    <link>https://ludeen007.github.io/categories/fabric%E5%91%BD%E4%BB%A4/</link>
+    <description>Recent content in Fabric命令 on 千里之行始于足下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://ludeen007.github.io/categories/fabric%E5%91%BD%E4%BB%A4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fabric 工具使用</title>
+      <link>https://ludeen007.github.io/posts/fabric/cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ludeen007.github.io/posts/fabric/cli/</guid>
+      <description>configtxlator #创世块的内容转为json，里面有configtx.yaml文件的内容，尤其是policies的。 configtxlator proto_decode --input genesis.block --type common.Block &amp;gt;&amp;gt; genesis.block.json  上图箭头指向管理员的证书列表,进到crypto-config/ordererOrganizations/example.com/users/Admin@example.com/msp/signcerts目录，执行base64 Admin@example.com-cert.pem &amp;gt;&amp;gt; admin.base64即可得到图示的base64证书内容字符串。</description>
+    </item>
+    
+  </channel>
+</rss>

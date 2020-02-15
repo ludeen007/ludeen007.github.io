@@ -97,7 +97,7 @@
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
-      <a href="https://ludeen007.github.io/posts/javascript/" class="link black dim">
+      <a href="https://ludeen007.github.io/posts/reading-notes/javascript/" class="link black dim">
         《Javascript高级程序设计》3e读书笔记
       </a>
     </h1>
@@ -114,12 +114,12 @@ Date类型 Date.parse() Date.UTC() new Date() Date.new() 日期/时间组件方�
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
-      <a href="https://ludeen007.github.io/posts/vscode-launch/" class="link black dim">
-        VSCode launch
+      <a href="https://ludeen007.github.io/posts/reading-notes/unmask-spring/" class="link black dim">
+        《Spring揭秘》读书笔记
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      调试bash脚本 { // Use IntelliSense to learn about possible attributes. // Hover to view descriptions of existing attributes. // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387 &quot;version&quot;: &quot;0.2.0&quot;, &quot;configurations&quot;: [{ &quot;type&quot;: &quot;bashdb&quot;, &quot;request&quot;: &quot;launch&quot;, &quot;name&quot;: &quot;Bash-Debug (select script from list of sh files)&quot;, &quot;cwd&quot;: &quot;${workspaceFolder}&quot;, &quot;program&quot;: &quot;${command:SelectScriptName}&quot;, &quot;args&quot;: [] } ] }  launch.json文件模板 { // Use IntelliSense to learn about possible attributes. // Hover to view descriptions of existing attributes. // For more information, visit: https://go.
+      Spring做了很多事情，但是归根到底是一些基本的思路，而所有这些思路最终都导向Spring的使命：简化Java开发 Spring通过下列四种策略来简化Java开发  基于POJO的轻量级、最小侵入式开发 通过依赖注入和面向接口编程实现松耦合 通过面向切面编程和惯例实现声明式编程 通过面向切面编程和模板消除样板式代码（boierplate code）  几乎Spring的每条特性都可以追溯到这四条策略之一，接下来分别对这四条策略进行阐述，并给出具体的代码说明Spring如何简化Java开发。
     </div>
   </div>
 </div>
@@ -129,18 +129,187 @@ Date类型 Date.parse() Date.UTC() new Date() Date.new() 日期/时间组件方�
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
-      <a href="https://ludeen007.github.io/posts/vscode-remote/" class="link black dim">
-        配置VSCode远程开发
+      <a href="https://ludeen007.github.io/posts/reading-notes/renjian-2e/" class="link black dim">
+        《人件》2e 读书笔记
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-       注意在Win10上运行git-bash执行以下命令 REMOTEHOST=root@172.x.y.z scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub ssh $REMOTEHOST &quot;mkdir -p ~/.ssh &amp;&amp; chmod 700 ~/.ssh &amp;&amp; cat ~/tmp.pub &gt;&gt; ~/.ssh/authorized_keys &amp;&amp; chmod 600 ~/.ssh/authorized_keys &amp;&amp; rm -f ~/tmp.pub&quot;  最后一步，在~/.ssh/vscode-remote-config文件里添加远程主机的ip等信息，例子如下 Host CentOSxxx User root HostName 172.x.y.z  详见 https://code.visualstudio.com/docs/remote/troubleshooting#_configuring-key-based-authentication 
+       我们必须学习如何多花时间在思考上，少花时间在实施上。我们只是做事，没时间思考工作自身 
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="https://ludeen007.github.io/posts/reading-notes/progit/" class="link black dim">
+        《精通Git/Pro Git》 2e读书笔记
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Git直接记录快照，而非差异比较 Figure 6. 工作目录、暂存区域以及 Git 仓库
+文件的3种状态：
+ 已修改modified 已暂存staged 已提交committed  基本的 Git 工作流程如下  在工作目录中修改文件。 暂存文件，将文件的快照放入暂存区域。 提交更新，找到暂存区域的文件，将快照永久性存储到 Git 仓库目录  Figure 8. 文件的状态变化周期
+工作目录下的文件的2种状态：已跟踪tracked，未跟踪untracked #查看提交2个历史及其文件修改 git log -p -2 #查看分支历史图 git log --graph #某次提交忘了某个文件的修改： git commit -m 'xx' #不完整 git add filename #补漏 git commit --amend #提交到上一个commit #查看远程分支信息 git remote -v git remote show origin #修改/删除远程分支 git remote rename src dst git remote rm xxx  Git标签 #查看 git tag -l #创建 git tag -a xx -m &quot;yy&quot; git push origin tagname/--tags  Git命令别名 git config --global alias.
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="https://ludeen007.github.io/posts/linux-bash-cmd/bash/" class="link black dim">
+        bash终端
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+       技巧 #重新执行上一个命令 !! #获取上一个命令的输出 $(!!) #复制fabric-ca-client 到当前目录下的bin目录，可以这样： which fabric-ca-client cp $(!!) ./bin  同步时间 ntpdate 0.asia.pool.ntp.org  找出最大的文件或目录 du -hs * | sort -rh | head -5 du -Sh | sort -rh | head -5 find -type f -exec du -Sh {} + | sort -rh | head -n 5  查看端口号占用 #找出占用25672端口号的pid(在最后一栏) netstat -pan | grep 25672 #查看pid对应的进程信息 ps aux | grep 5334  查看cpu和内存信息 cat /proc/meminfo  
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="https://ludeen007.github.io/posts/linux-bash-cmd/crontab/" class="link black dim">
+        bash终端
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      技巧 #定期任务，修改/etc/crontab文件后，记得重启crontab服务(sudo systemctl restart crond.service)使修改生效 #任务例子 # For details see man 4 crontabs # Example of job definition: # .---------------- minute (0 - 59) # | .------------- hour (0 - 23) # | | .---------- day of month (1 - 31) # | | | .------- month (1 - 12) OR jan,feb,mar,apr ... # | | | | .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat # | | | | | # * * * * * user-name command to be executed # every minute * * * * * root date &gt;&gt; ~/workbench/crontab-output/every-minute.
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="https://ludeen007.github.io/posts/fabric/couchdb/" class="link black dim">
+        Couchdb校验入库
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+       wallet验证身份(可扩展到查询其他数据) couchdb服务起来后，访问 http://IP:PORT/_utils/index.html 来查看身份信息数据库
+来自 http://docs.couchdb.org/en/stable/install/unix.html#user-registration-and-security
+ 查看日志 找到关键字段，BEGIN PUBLIC KEY&mdash;&ndash;\n后的字符串 MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErHWrHfmNlyRuSQCONq6i6MNktNws 在对应的CouchDB可视化页面的wallet数据库执行查询
+{ &quot;selector&quot;: { &quot;member&quot;: { &quot;$regex&quot;: &quot;MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErHWrHfmNlyRuSQCONq6i6MNktNws&quot; } } }  如果查询结果不为空，表示wallet存在身份
+  查询Couchdb数据的bash脚本 按主键查询
+#!/bin/bash set -x USER=admin:adminpw URL=$1 #URL=http://$USER@IP:PORT DADABASE_NAME=ic KEY_WORD=$2 #KEY_WORD=&quot;02238fa044fea40ef1167cadd091025a118b50b2ccd5079557e8b780cfff03fa&quot; curl $URL curl -X GET $URL/$DADABASE_NAME curl -X GET $URL/$DADABASE_NAME/_all_docs RET=$(curl -s -X POST $URL/$DADABASE_NAME/_find \ -H &quot;content-type: application/json&quot; \ -d &quot;{\&quot;selector\&quot;:{\&quot;docType\&quot;:\&quot;identity\&quot;,\&quot;key\&quot;:\&quot;$KEY_WORD\&quot;}}&quot;) echo &quot;RET:&quot; echo $RET set +x  按正则查询
+#!/bin/bash set -x URL=$1 DADABASE_NAME=wallet KEY_WORD=&quot;$2&quot; #KEY_WORD=&quot;MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgBWmCNqiRTSoGtGJc&quot; curl $URL curl -X GET $URL/$DADABASE_NAME #curl -X GET $URL/$DADABASE_NAME/_all_docs RET=$(curl -s -X POST $URL/$DADABASE_NAME/_find \ -H &quot;content-type: application/json&quot; \ -d &quot;{\&quot;selector\&quot;:{\&quot;member\&quot;:{\&quot;\$regex\&quot;:\&quot;$KEY_WORD\&quot;}}}&quot;) echo &quot;RET:&quot; echo $RET set +x  
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="https://ludeen007.github.io/posts/virtualization/docker/docker-cli/" class="link black dim">
+        docker命令
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      docker ps | awk '{print $NF}' | tail -7 #TODO 合并显示两栏，左边容器名，右边容器ip docker ps | awk '{print $NF}' | tail -7 | xargs docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' docker ps | awk '{print $NF}' | tail -7 | xargs docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' docker rmi -f $(docker image ls | awk '{print $1}') #进入容器执行命令 docker exec -it cli bash #删除卷 docker volume rm $(docker volume ls | tail -n +2 | awk '{print $NF}') #拷出容器里的文件 docker cp containerid:/some/path/file .
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="https://ludeen007.github.io/posts/fabric/cli/" class="link black dim">
+        Fabric 工具使用
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      configtxlator #创世块的内容转为json，里面有configtx.yaml文件的内容，尤其是policies的。 configtxlator proto_decode --input genesis.block --type common.Block &gt;&gt; genesis.block.json  上图箭头指向管理员的证书列表,进到crypto-config/ordererOrganizations/example.com/users/Admin@example.com/msp/signcerts目录，执行base64 Admin@example.com-cert.pem &gt;&gt; admin.base64即可得到图示的base64证书内容字符串。
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="https://ludeen007.github.io/posts/linux-bash-cmd/git/" class="link black dim">
+        git
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+       git命令 #对比两个分支 git diff branch1..branch2 #避免git push每次都要输入用户名和密码 (有安全风险) git config credential.helper store #当改了很多代码，却又只想提交某部分修改，用以下命令，详见https://stackoverflow.com/questions/1085162/commit-only-part-of-a-file-in-git git add --patch filename #格式化git commit message npx git-cz #添加子模块（一个git仓库为另一个git仓库下的子目录，同时保持独立的git记录） git submodule add https://github.com/chaconinc/DbConnector #详见 https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97 #修改分支名 git branch -m src dst #开分支 #1. 远程先开好分支然后拉到本地 git checkout -b feature-branch origin/feature-branch //检出远程的feature-branch分支到本地 #2. 本地先开好分支然后推送到远程 git checkout -b feature-branch //创建并切换到分支feature-branch git push origin feature-branch:feature-branch //推送本地的feature-branch(冒号前面的)分支到远程origin的feature-branch(冒号后面的)分支(没有会自动创建) #来自 &lt;https://www.cnblogs.com/qyf404/p/git_push_local_branch_to_remote.html&gt; #push/pull时，git协议不行就换http协议操作 #查询某个git仓库的hooks目录位置（一般来说是.git/hooks，但是submodule会有所不同） git rev-parse --git-path hooks #对比两个git分支，且忽略指定目录的不同 git diff alpha tmp --name-only | grep -v &quot;crypto-config&quot;  
     </div>
   </div>
 </div>
 </div>
       
     </section>
+
+<ul class="pagination">
+    
+    <li class="page-item">
+        <a href="/posts/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+    </li>
+    
+    <li class="page-item disabled">
+    <a  class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item active"><a class="page-link" href="/posts/">1</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/posts/page/2/">2</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/posts/page/3/">3</a></li>
+    
+    
+    <li class="page-item">
+    <a href="/posts/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    </li>
+    
+    <li class="page-item">
+        <a href="/posts/page/3/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+    </li>
+    
+</ul>
 
 </article>
 

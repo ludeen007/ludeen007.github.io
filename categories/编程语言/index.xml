@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>编程语言 on 千里之行始于足下</title>
+    <link>https://ludeen007.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</link>
+    <description>Recent content in 编程语言 on 千里之行始于足下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://ludeen007.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>javascript</title>
+      <link>https://ludeen007.github.io/posts/programming-languages/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ludeen007.github.io/posts/programming-languages/javascript/</guid>
+      <description>javascript package.json文件里加入以下命令，来使用淘宝npm镜像源安装依赖包
+{ &amp;quot;preinstall&amp;quot;: &amp;quot;npm config set registry http://registry.npm.taobao.org/&amp;quot; }  用gulp mocha chai 单元测试时，用it.only()或者decribe.only()可以只运行单次测试</description>
+    </item>
+    
+  </channel>
+</rss>

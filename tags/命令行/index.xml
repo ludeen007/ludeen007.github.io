@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>千里之行始于足下</title>
+    <link>https://ludeen007.github.io/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/</link>
+    <description>Recent content on 千里之行始于足下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://ludeen007.github.io/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fabric 工具使用</title>
+      <link>https://ludeen007.github.io/posts/fabric/cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ludeen007.github.io/posts/fabric/cli/</guid>
+      <description>configtxlator #创世块的内容转为json，里面有configtx.yaml文件的内容，尤其是policies的。 configtxlator proto_decode --input genesis.block --type common.Block &amp;gt;&amp;gt; genesis.block.json  上图箭头指向管理员的证书列表,进到crypto-config/ordererOrganizations/example.com/users/Admin@example.com/msp/signcerts目录，执行base64 Admin@example.com-cert.pem &amp;gt;&amp;gt; admin.base64即可得到图示的base64证书内容字符串。</description>
+    </item>
+    
+    <item>
+      <title>openssl</title>
+      <link>https://ludeen007.github.io/posts/linux-bash-cmd/openssl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ludeen007.github.io/posts/linux-bash-cmd/openssl/</guid>
+      <description>openssl # openssl查看证书内容 openssl x509 -text -noout -in ca.example.com-cert.pem openssl crl -in /root/fabric-ca/clients/admin/msp/crls/crl.pem -text -noout openssl crl -text -noout -in ca.pem # 查看keyusage openssl x509 -in ca-cert.pem -purpose -noout -text #验证证书链 openssl verify -CAfile ca.pem user.pem #How do I get common name (CN) from SSL certificate? openssl x509 -noout -subject -in your-file.pem #自签名是用以下命令查看Subject：和Issuer：的内容相同。 openssl x509 -text -noout -in 1.pem #验证2.pem是1.pem颁发的命令(验证通过只返回OK) openssl verify -verbose -CAfile 1.pem 2.pem certificate signed by unknown authority: openssl x509 -noout -text -in cacerts/cacert.</description>
+    </item>
+    
+    <item>
+      <title>Windows CMD命令</title>
+      <link>https://ludeen007.github.io/posts/windows-cmd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ludeen007.github.io/posts/windows-cmd/</guid>
+      <description> 定时关机 $$ 一分钟后强制关机 shutdown /s /t 60 /f  </description>
+    </item>
+    
+    <item>
+      <title>经常在linux 终端使用的命令</title>
+      <link>https://ludeen007.github.io/posts/linux-bash-cmd/misc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ludeen007.github.io/posts/linux-bash-cmd/misc/</guid>
+      <description>tree #tree命令排除目录 tree -I &amp;quot;node_modules&amp;quot; . #只看目录，而且打印全路径 tree -afd ../workbench  tar #压缩 tar cvzf scb-blockchain-k8s.tar.gz ./scb-blockchain-k8s/ #压缩时排除某些目录（可能要先执行shopt -s globstar） tar cvfz gulp-test.tar.gz --exclude=**/.git --exclude=**/node_modules gulp-test/ #解压缩 tar zxvf xxx.tar.gz #查看文件 tar tvf xxx.tar  diff #对比两个目录 #This should do the job: diff -qr -x &#39;node_modules&#39; ../../../scb-blockchain-nodejs-svc/ scb-blockchain-nodejs-svc/ | less #Options explained (via diff(1) man page): #• -r - Recursively compare any subdirectories found. #• -q - Output only whether files differ.</description>
+    </item>
+    
+    <item>
+      <title>那些年踩过的坑</title>
+      <link>https://ludeen007.github.io/posts/pitfalls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ludeen007.github.io/posts/pitfalls/</guid>
+      <description> curl 命令行&amp;amp;符号要转义 </description>
+    </item>
+    
+  </channel>
+</rss>
