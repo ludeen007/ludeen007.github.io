@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ludeen007.github.io/posts/javascript/</loc>
+    <loc>https://ludeen007.github.io/posts/</loc>
     <lastmod>2019-12-11T18:42:55+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ludeen007.github.io/posts/</loc>
+    <loc>https://ludeen007.github.io/posts/javascript/</loc>
     <lastmod>2019-12-11T18:42:55+08:00</lastmod>
   </url>
   
@@ -30,7 +30,7 @@
   </url>
   
   <url>
-    <loc>https://ludeen007.github.io/posts/my-first-post/</loc>
+    <loc>https://ludeen007.github.io/posts/vscode-remote/</loc>
   </url>
   
 </urlset>

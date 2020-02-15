@@ -12,15 +12,14 @@
     
     
     <item>
-      <title>Javascript</title>
+      <title>《Javascript高级程序设计》3e读书笔记</title>
       <link>https://ludeen007.github.io/posts/javascript/</link>
       <pubDate>Wed, 11 Dec 2019 18:42:55 +0800</pubDate>
       
       <guid>https://ludeen007.github.io/posts/javascript/</guid>
-      <description>《Javascript高级程序设计》3e for-in语句遍历属性。 2种值： 基本类型值：Undefined Null Boolean Number String。按值复制。栈内存。非对象。 引用类型值：可能由多个值组成的对象。按引用复制。堆内存。是对象。
-函数参数只按值传递。即向参数传引用类型值时，会传这个值在内存中的地址复制给一个局部变量，因而这个局部变量的变化会反应在函数的外部。
-typeof instanceof 执行环境及作用域
-4.4小结 数组： Array.length不是只读的。判断是否数组Array.isArray(val) 栈方法：push(), pop() 队列方法: shift() push() / unshift() pop() 重排序方法：sort() 默认按字符串从小到大排序，可用sort(compare)自定义排序 reverse()反转 操作方法：concat() 连接slice() 切片splice()多功能 位置方法：indexOf() lastIndexOf() 迭代方法：every() filter() forEach() map() some() 缩小方法: reduce() reduceRight() Date类型 Date.parse() Date.UTC() new Date() Date.new() 日期/时间组件方法：get/setDate()/Month()/seconds() Regexp类型 let expression = /pattern/flags; 模式pattern 标志flags: g全局模式 i不区分大小写 m多行模式 元字符（模式中使用元字符要转义） ( [ { \ ^ $ | ? * + . ) ] } let pattern = /[bc]at/I; let pattern2 = new RegExp(&amp;rdquo;[bc]at&amp;rdquo;, &amp;ldquo;I&amp;rdquo;); 字面量模式 等价的字符串 /[bc]at/ &amp;ldquo;\[bc\]at&amp;rdquo; /.</description>
+      <description>for-in语句遍历属性 2种值 基本类型值：Undefined Null Boolean Number String。按值复制。栈内存。非对象。 引用类型值：可能由多个值组成的对象。按引用复制。堆内存。是对象。
+函数参数只按值传递。即向参数传引用类型值时，会传这个值在内存中的地址复制给一个局部变量，因而这个局部变量的变化会反应在函数的外部 typeof instanceof 执行环境及作用域 4.4小结 数组 Array.length不是只读的。判断是否数组Array.isArray(val) 栈方法：push(), pop() 队列方法: shift() push() / unshift() pop() 重排序方法：sort() 默认按字符串从小到大排序，可用sort(compare)自定义排序 reverse()反转 操作方法：concat() 连接slice() 切片splice()多功能 位置方法：indexOf() lastIndexOf() 迭代方法：every() filter() forEach() map() some() 缩小方法: reduce() reduceRight()
+Date类型 Date.parse() Date.UTC() new Date() Date.new() 日期/时间组件方法：get/setDate()/Month()/seconds() Regexp类型 let expression = /pattern/flags; 模式pattern 标志flags: g全局模式 i不区分大小写 m多行模式 元字符（模式中使用元字符要转义） ( [ { \ ^ $ | ? * + . ) ] } let pattern = /[bc]at/I;let pattern2 = new RegExp(&amp;rdquo;[bc]at&amp;rdquo;, &amp;ldquo;I&amp;rdquo;); 字面量模式等价的字符串 /[bc]at/&amp;rdquo;\[bc\]at&amp;rdquo; /.</description>
     </item>
     
     <item>
@@ -34,12 +33,11 @@ typeof instanceof 执行环境及作用域
     
     <item>
       <title>配置VSCode远程开发</title>
-      <link>https://ludeen007.github.io/posts/my-first-post/</link>
+      <link>https://ludeen007.github.io/posts/vscode-remote/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ludeen007.github.io/posts/my-first-post/</guid>
-      <description> 注意在Win10上运行git-bash执行以下命令 REMOTEHOST=root@172.16.87.31 scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub ssh $REMOTEHOST &amp;quot;mkdir -p ~/.ssh &amp;amp;&amp;amp; chmod 700 ~/.ssh &amp;amp;&amp;amp; cat ~/tmp.pub &amp;gt;&amp;gt; ~/.ssh/authorized_keys &amp;amp;&amp;amp; chmod 600 ~/.ssh/authorized_keys &amp;amp;&amp;amp; rm -f ~/tmp.pub&amp;quot;  最后一步，在以下文件里添加远程主机的ip等信息 ~/.ssh/vscode-remote-config
-详见 https://code.visualstudio.com/docs/remote/troubleshooting#_configuring-key-based-authentication </description>
+      <guid>https://ludeen007.github.io/posts/vscode-remote/</guid>
+      <description> 注意在Win10上运行git-bash执行以下命令 REMOTEHOST=root@172.x.y.z scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub ssh $REMOTEHOST &amp;quot;mkdir -p ~/.ssh &amp;amp;&amp;amp; chmod 700 ~/.ssh &amp;amp;&amp;amp; cat ~/tmp.pub &amp;gt;&amp;gt; ~/.ssh/authorized_keys &amp;amp;&amp;amp; chmod 600 ~/.ssh/authorized_keys &amp;amp;&amp;amp; rm -f ~/tmp.pub&amp;quot;  最后一步，在~/.ssh/vscode-remote-config文件里添加远程主机的ip等信息，例子如下 Host CentOSxxx User root HostName 172.x.y.z  详见 https://code.visualstudio.com/docs/remote/troubleshooting#_configuring-key-based-authentication </description>
     </item>
     
   </channel>

@@ -124,14 +124,13 @@
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="https://ludeen007.github.io/posts/javascript/" class="color-inherit dim link">
-            Javascript
+            《Javascript高级程序设计》3e读书笔记
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          《Javascript高级程序设计》3e for-in语句遍历属性。 2种值： 基本类型值：Undefined Null Boolean Number String。按值复制。栈内存。非对象。 引用类型值：可能由多个值组成的对象。按引用复制。堆内存。是对象。
-函数参数只按值传递。即向参数传引用类型值时，会传这个值在内存中的地址复制给一个局部变量，因而这个局部变量的变化会反应在函数的外部。
-typeof instanceof 执行环境及作用域
-4.4小结 数组： Array.length不是只读的。判断是否数组Array.isArray(val) 栈方法：push(), pop() 队列方法: shift() push() / unshift() pop() 重排序方法：sort() 默认按字符串从小到大排序，可用sort(compare)自定义排序 reverse()反转 操作方法：concat() 连接slice() 切片splice()多功能 位置方法：indexOf() lastIndexOf() 迭代方法：every() filter() forEach() map() some() 缩小方法: reduce() reduceRight() Date类型 Date.parse() Date.UTC() new Date() Date.new() 日期/时间组件方法：get/setDate()/Month()/seconds() Regexp类型 let expression = /pattern/flags; 模式pattern 标志flags: g全局模式 i不区分大小写 m多行模式 元字符（模式中使用元字符要转义） ( [ { \ ^ $ | ? * + . ) ] } let pattern = /[bc]at/I; let pattern2 = new RegExp(&rdquo;[bc]at&rdquo;, &ldquo;I&rdquo;); 字面量模式 等价的字符串 /[bc]at/ &ldquo;\[bc\]at&rdquo; /.
+          for-in语句遍历属性 2种值 基本类型值：Undefined Null Boolean Number String。按值复制。栈内存。非对象。 引用类型值：可能由多个值组成的对象。按引用复制。堆内存。是对象。
+函数参数只按值传递。即向参数传引用类型值时，会传这个值在内存中的地址复制给一个局部变量，因而这个局部变量的变化会反应在函数的外部 typeof instanceof 执行环境及作用域 4.4小结 数组 Array.length不是只读的。判断是否数组Array.isArray(val) 栈方法：push(), pop() 队列方法: shift() push() / unshift() pop() 重排序方法：sort() 默认按字符串从小到大排序，可用sort(compare)自定义排序 reverse()反转 操作方法：concat() 连接slice() 切片splice()多功能 位置方法：indexOf() lastIndexOf() 迭代方法：every() filter() forEach() map() some() 缩小方法: reduce() reduceRight()
+Date类型 Date.parse() Date.UTC() new Date() Date.new() 日期/时间组件方法：get/setDate()/Month()/seconds() Regexp类型 let expression = /pattern/flags; 模式pattern 标志flags: g全局模式 i不区分大小写 m多行模式 元字符（模式中使用元字符要转义） ( [ { \ ^ $ | ? * + . ) ] } let pattern = /[bc]at/I;let pattern2 = new RegExp(&rdquo;[bc]at&rdquo;, &ldquo;I&rdquo;); 字面量模式等价的字符串 /[bc]at/&rdquo;\[bc\]at&rdquo; /.
         </div>
           <a href="https://ludeen007.github.io/posts/javascript/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
@@ -174,15 +173,14 @@ typeof instanceof 执行环境及作用域
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://ludeen007.github.io/posts/my-first-post/" class="color-inherit dim link">
+          <a href="https://ludeen007.github.io/posts/vscode-remote/" class="color-inherit dim link">
             配置VSCode远程开发
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-           注意在Win10上运行git-bash执行以下命令 REMOTEHOST=root@172.16.87.31 scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub ssh $REMOTEHOST &quot;mkdir -p ~/.ssh &amp;&amp; chmod 700 ~/.ssh &amp;&amp; cat ~/tmp.pub &gt;&gt; ~/.ssh/authorized_keys &amp;&amp; chmod 600 ~/.ssh/authorized_keys &amp;&amp; rm -f ~/tmp.pub&quot;  最后一步，在以下文件里添加远程主机的ip等信息 ~/.ssh/vscode-remote-config
-详见 https://code.visualstudio.com/docs/remote/troubleshooting#_configuring-key-based-authentication 
+           注意在Win10上运行git-bash执行以下命令 REMOTEHOST=root@172.x.y.z scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub ssh $REMOTEHOST &quot;mkdir -p ~/.ssh &amp;&amp; chmod 700 ~/.ssh &amp;&amp; cat ~/tmp.pub &gt;&gt; ~/.ssh/authorized_keys &amp;&amp; chmod 600 ~/.ssh/authorized_keys &amp;&amp; rm -f ~/tmp.pub&quot;  最后一步，在~/.ssh/vscode-remote-config文件里添加远程主机的ip等信息，例子如下 Host CentOSxxx User root HostName 172.x.y.z  详见 https://code.visualstudio.com/docs/remote/troubleshooting#_configuring-key-based-authentication 
         </div>
-          <a href="https://ludeen007.github.io/posts/my-first-post/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="https://ludeen007.github.io/posts/vscode-remote/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
