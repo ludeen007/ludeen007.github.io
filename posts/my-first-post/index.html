@@ -26,19 +26,13 @@
     
     
     <meta property="og:title" content="配置VSCode远程开发" />
-<meta property="og:description" content=" 注意在Win10上运行git-bash执行以下命令 REMOTEHOST=root@172.16.87.31
-scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub
-ssh $REMOTEHOST &ldquo;mkdir -p ~/.ssh &amp;&amp; chmod 700 ~/.ssh &amp;&amp; cat ~/tmp.pub &gt;&gt; ~/.ssh/authorized_keys &amp;&amp; chmod 600 ~/.ssh/authorized_keys &amp;&amp; rm -f ~/tmp.pub&rdquo;
-最后一步，在以下文件里添加远程主机的ip等信息 ~/.ssh/vscode-remote-config
+<meta property="og:description" content=" 注意在Win10上运行git-bash执行以下命令 REMOTEHOST=root@172.16.87.31 scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub ssh $REMOTEHOST &quot;mkdir -p ~/.ssh &amp;&amp; chmod 700 ~/.ssh &amp;&amp; cat ~/tmp.pub &gt;&gt; ~/.ssh/authorized_keys &amp;&amp; chmod 600 ~/.ssh/authorized_keys &amp;&amp; rm -f ~/tmp.pub&quot;  最后一步，在以下文件里添加远程主机的ip等信息 ~/.ssh/vscode-remote-config
 详见 https://code.visualstudio.com/docs/remote/troubleshooting#_configuring-key-based-authentication " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ludeen007.github.io/posts/my-first-post/" />
 
 <meta itemprop="name" content="配置VSCode远程开发">
-<meta itemprop="description" content=" 注意在Win10上运行git-bash执行以下命令 REMOTEHOST=root@172.16.87.31
-scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub
-ssh $REMOTEHOST &ldquo;mkdir -p ~/.ssh &amp;&amp; chmod 700 ~/.ssh &amp;&amp; cat ~/tmp.pub &gt;&gt; ~/.ssh/authorized_keys &amp;&amp; chmod 600 ~/.ssh/authorized_keys &amp;&amp; rm -f ~/tmp.pub&rdquo;
-最后一步，在以下文件里添加远程主机的ip等信息 ~/.ssh/vscode-remote-config
+<meta itemprop="description" content=" 注意在Win10上运行git-bash执行以下命令 REMOTEHOST=root@172.16.87.31 scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub ssh $REMOTEHOST &quot;mkdir -p ~/.ssh &amp;&amp; chmod 700 ~/.ssh &amp;&amp; cat ~/tmp.pub &gt;&gt; ~/.ssh/authorized_keys &amp;&amp; chmod 600 ~/.ssh/authorized_keys &amp;&amp; rm -f ~/tmp.pub&quot;  最后一步，在以下文件里添加远程主机的ip等信息 ~/.ssh/vscode-remote-config
 详见 https://code.visualstudio.com/docs/remote/troubleshooting#_configuring-key-based-authentication ">
 
 
@@ -50,10 +44,7 @@ ssh $REMOTEHOST &ldquo;mkdir -p ~/.ssh &amp;&amp; chmod 700 ~/.ssh &amp;&amp; ca
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="配置VSCode远程开发"/>
-<meta name="twitter:description" content=" 注意在Win10上运行git-bash执行以下命令 REMOTEHOST=root@172.16.87.31
-scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub
-ssh $REMOTEHOST &ldquo;mkdir -p ~/.ssh &amp;&amp; chmod 700 ~/.ssh &amp;&amp; cat ~/tmp.pub &gt;&gt; ~/.ssh/authorized_keys &amp;&amp; chmod 600 ~/.ssh/authorized_keys &amp;&amp; rm -f ~/tmp.pub&rdquo;
-最后一步，在以下文件里添加远程主机的ip等信息 ~/.ssh/vscode-remote-config
+<meta name="twitter:description" content=" 注意在Win10上运行git-bash执行以下命令 REMOTEHOST=root@172.16.87.31 scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub ssh $REMOTEHOST &quot;mkdir -p ~/.ssh &amp;&amp; chmod 700 ~/.ssh &amp;&amp; cat ~/tmp.pub &gt;&gt; ~/.ssh/authorized_keys &amp;&amp; chmod 600 ~/.ssh/authorized_keys &amp;&amp; rm -f ~/tmp.pub&quot;  最后一步，在以下文件里添加远程主机的ip等信息 ~/.ssh/vscode-remote-config
 详见 https://code.visualstudio.com/docs/remote/troubleshooting#_configuring-key-based-authentication "/>
 
   </head>
@@ -119,11 +110,12 @@ ssh $REMOTEHOST &ldquo;mkdir -p ~/.ssh &amp;&amp; chmod 700 ~/.ssh &amp;&amp; ca
 
 <h1 id="注意在win10上运行git-bash执行以下命令">注意在Win10上运行git-bash执行以下命令</h1>
 
-<p>REMOTEHOST=root@172.16.87.31</p>
+<pre><code>REMOTEHOST=root@172.16.87.31
 
-<p>scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub</p>
+scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub
 
-<p>ssh $REMOTEHOST &ldquo;mkdir -p ~/.ssh &amp;&amp; chmod 700 ~/.ssh &amp;&amp; cat ~/tmp.pub &gt;&gt; ~/.ssh/authorized_keys &amp;&amp; chmod 600 ~/.ssh/authorized_keys &amp;&amp; rm -f ~/tmp.pub&rdquo;</p>
+ssh $REMOTEHOST &quot;mkdir -p ~/.ssh &amp;&amp; chmod 700 ~/.ssh &amp;&amp; cat ~/tmp.pub &gt;&gt; ~/.ssh/authorized_keys &amp;&amp; chmod 600 ~/.ssh/authorized_keys &amp;&amp; rm -f ~/tmp.pub&quot;
+</code></pre>
 
 <h2 id="最后一步-在以下文件里添加远程主机的ip等信息">最后一步，在以下文件里添加远程主机的ip等信息</h2>
 
@@ -152,7 +144,7 @@ ssh $REMOTEHOST &ldquo;mkdir -p ~/.ssh &amp;&amp; chmod 700 ~/.ssh &amp;&amp; ca
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://ludeen007.github.io/" >
-    &copy; 2019 千里之行始于足下
+    &copy; 2020 千里之行始于足下
   </a>
     <div>
 

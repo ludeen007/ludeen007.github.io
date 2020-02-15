@@ -26,14 +26,12 @@
     
     
     <meta property="og:title" content="VSCode launch" />
-<meta property="og:description" content="调试bash脚本 { // Use IntelliSense to learn about possible attributes. // Hover to view descriptions of existing attributes. // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387 &rdquo;version&rdquo;: &rdquo;0.2.0&rdquo;, &rdquo;configurations&rdquo;: [{ &rdquo;type&rdquo;: &rdquo;bashdb&rdquo;, &rdquo;request&rdquo;: &rdquo;launch&rdquo;, &rdquo;name&rdquo;: &rdquo;Bash-Debug (select script from list of sh files)&ldquo;, &rdquo;cwd&rdquo;: &rdquo;${workspaceFolder}&ldquo;, &rdquo;program&rdquo;: &rdquo;${command:SelectScriptName}&ldquo;, &rdquo;args&rdquo;: [] } ] }
-launch.json文件模板 { // Use IntelliSense to learn about possible attributes. // Hover to view descriptions of existing attributes. // For more information, visit: https://go." />
+<meta property="og:description" content="调试bash脚本 { // Use IntelliSense to learn about possible attributes. // Hover to view descriptions of existing attributes. // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387 &quot;version&quot;: &quot;0.2.0&quot;, &quot;configurations&quot;: [{ &quot;type&quot;: &quot;bashdb&quot;, &quot;request&quot;: &quot;launch&quot;, &quot;name&quot;: &quot;Bash-Debug (select script from list of sh files)&quot;, &quot;cwd&quot;: &quot;${workspaceFolder}&quot;, &quot;program&quot;: &quot;${command:SelectScriptName}&quot;, &quot;args&quot;: [] } ] }  launch.json文件模板 { // Use IntelliSense to learn about possible attributes. // Hover to view descriptions of existing attributes. // For more information, visit: https://go." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ludeen007.github.io/posts/vscode-launch/" />
 
 <meta itemprop="name" content="VSCode launch">
-<meta itemprop="description" content="调试bash脚本 { // Use IntelliSense to learn about possible attributes. // Hover to view descriptions of existing attributes. // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387 &rdquo;version&rdquo;: &rdquo;0.2.0&rdquo;, &rdquo;configurations&rdquo;: [{ &rdquo;type&rdquo;: &rdquo;bashdb&rdquo;, &rdquo;request&rdquo;: &rdquo;launch&rdquo;, &rdquo;name&rdquo;: &rdquo;Bash-Debug (select script from list of sh files)&ldquo;, &rdquo;cwd&rdquo;: &rdquo;${workspaceFolder}&ldquo;, &rdquo;program&rdquo;: &rdquo;${command:SelectScriptName}&ldquo;, &rdquo;args&rdquo;: [] } ] }
-launch.json文件模板 { // Use IntelliSense to learn about possible attributes. // Hover to view descriptions of existing attributes. // For more information, visit: https://go.">
+<meta itemprop="description" content="调试bash脚本 { // Use IntelliSense to learn about possible attributes. // Hover to view descriptions of existing attributes. // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387 &quot;version&quot;: &quot;0.2.0&quot;, &quot;configurations&quot;: [{ &quot;type&quot;: &quot;bashdb&quot;, &quot;request&quot;: &quot;launch&quot;, &quot;name&quot;: &quot;Bash-Debug (select script from list of sh files)&quot;, &quot;cwd&quot;: &quot;${workspaceFolder}&quot;, &quot;program&quot;: &quot;${command:SelectScriptName}&quot;, &quot;args&quot;: [] } ] }  launch.json文件模板 { // Use IntelliSense to learn about possible attributes. // Hover to view descriptions of existing attributes. // For more information, visit: https://go.">
 
 
 
@@ -44,8 +42,7 @@ launch.json文件模板 { // Use IntelliSense to learn about possible att
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="VSCode launch"/>
-<meta name="twitter:description" content="调试bash脚本 { // Use IntelliSense to learn about possible attributes. // Hover to view descriptions of existing attributes. // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387 &rdquo;version&rdquo;: &rdquo;0.2.0&rdquo;, &rdquo;configurations&rdquo;: [{ &rdquo;type&rdquo;: &rdquo;bashdb&rdquo;, &rdquo;request&rdquo;: &rdquo;launch&rdquo;, &rdquo;name&rdquo;: &rdquo;Bash-Debug (select script from list of sh files)&ldquo;, &rdquo;cwd&rdquo;: &rdquo;${workspaceFolder}&ldquo;, &rdquo;program&rdquo;: &rdquo;${command:SelectScriptName}&ldquo;, &rdquo;args&rdquo;: [] } ] }
-launch.json文件模板 { // Use IntelliSense to learn about possible attributes. // Hover to view descriptions of existing attributes. // For more information, visit: https://go."/>
+<meta name="twitter:description" content="调试bash脚本 { // Use IntelliSense to learn about possible attributes. // Hover to view descriptions of existing attributes. // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387 &quot;version&quot;: &quot;0.2.0&quot;, &quot;configurations&quot;: [{ &quot;type&quot;: &quot;bashdb&quot;, &quot;request&quot;: &quot;launch&quot;, &quot;name&quot;: &quot;Bash-Debug (select script from list of sh files)&quot;, &quot;cwd&quot;: &quot;${workspaceFolder}&quot;, &quot;program&quot;: &quot;${command:SelectScriptName}&quot;, &quot;args&quot;: [] } ] }  launch.json文件模板 { // Use IntelliSense to learn about possible attributes. // Hover to view descriptions of existing attributes. // For more information, visit: https://go."/>
 
   </head>
 
@@ -110,110 +107,112 @@ launch.json文件模板 { // Use IntelliSense to learn about possible att
 
 <h1 id="调试bash脚本">调试bash脚本</h1>
 
-<p>{
+<pre><code>{
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
-    // For more information, visit: <a href="https://go.microsoft.com/fwlink/?linkid=830387">https://go.microsoft.com/fwlink/?linkid=830387</a>
-    &rdquo;version&rdquo;: &rdquo;0.2.0&rdquo;,
-    &rdquo;configurations&rdquo;: [{
-            &rdquo;type&rdquo;: &rdquo;bashdb&rdquo;,
-            &rdquo;request&rdquo;: &rdquo;launch&rdquo;,
-            &rdquo;name&rdquo;: &rdquo;Bash-Debug (select script from list of sh files)&ldquo;,
-            &rdquo;cwd&rdquo;: &rdquo;${workspaceFolder}&ldquo;,
-            &rdquo;program&rdquo;: &rdquo;${command:SelectScriptName}&ldquo;,
-            &rdquo;args&rdquo;: []
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    &quot;version&quot;: &quot;0.2.0&quot;,
+    &quot;configurations&quot;: [{
+            &quot;type&quot;: &quot;bashdb&quot;,
+            &quot;request&quot;: &quot;launch&quot;,
+            &quot;name&quot;: &quot;Bash-Debug (select script from list of sh files)&quot;,
+            &quot;cwd&quot;: &quot;${workspaceFolder}&quot;,
+            &quot;program&quot;: &quot;${command:SelectScriptName}&quot;,
+            &quot;args&quot;: []
         }    ]
-}</p>
+}
+</code></pre>
 
 <h1 id="launch-json文件模板">launch.json文件模板</h1>
 
-<p>{
+<pre><code>{
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
-    // For more information, visit: <a href="https://go.microsoft.com/fwlink/?linkid=830387">https://go.microsoft.com/fwlink/?linkid=830387</a>
-    &rdquo;version&rdquo;: &rdquo;0.2.0&rdquo;,
-    &rdquo;configurations&rdquo;: [{
-            &rdquo;type&rdquo;: &rdquo;node&rdquo;,
-            &rdquo;request&rdquo;: &rdquo;launch&rdquo;,
-            &rdquo;name&rdquo;: &rdquo;Launch Program&rdquo;,
-            &rdquo;program&rdquo;: &rdquo;${workspaceFolder}/consumerWorker.js&rdquo;,
-            &rdquo;args&rdquo;: [
-                &rdquo;&ndash;port&rdquo;,
-                &rdquo;800&rdquo;,
-                &rdquo;&ndash;debug&rdquo;,
-                &rdquo;yes&rdquo;,
-                &rdquo;&ndash;flags&rdquo;,
-                &rdquo;w&rdquo;
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    &quot;version&quot;: &quot;0.2.0&quot;,
+    &quot;configurations&quot;: [{
+            &quot;type&quot;: &quot;node&quot;,
+            &quot;request&quot;: &quot;launch&quot;,
+            &quot;name&quot;: &quot;Launch Program&quot;,
+            &quot;program&quot;: &quot;${workspaceFolder}/consumerWorker.js&quot;,
+            &quot;args&quot;: [
+                &quot;--port&quot;,
+                &quot;800&quot;,
+                &quot;--debug&quot;,
+                &quot;yes&quot;,
+                &quot;--flags&quot;,
+                &quot;w&quot;
             ],
-            &rdquo;env&rdquo;: {
-                &rdquo;NODE_ENV&rdquo;: &rdquo;development&rdquo;
+            &quot;env&quot;: {
+                &quot;NODE_ENV&quot;: &quot;development&quot;
             },
-            &rdquo;skipFiles&rdquo;: [
-                &rdquo;<node_internals>/<strong>&rdquo;,
-                &rdquo;async_hooks.js&rdquo;,
-                &rdquo;inspector_async_hook.js&rdquo;
+            &quot;skipFiles&quot;: [
+                &quot;&lt;node_internals&gt;/**&quot;,
+                &quot;async_hooks.js&quot;,
+                &quot;inspector_async_hook.js&quot;
             ],
-            &rdquo;console&rdquo;: &rdquo;integratedTerminal&rdquo;,
-            &rdquo;preLaunchTask&rdquo;: &rdquo;eslint&rdquo;
+            &quot;console&quot;: &quot;integratedTerminal&quot;,
+            &quot;preLaunchTask&quot;: &quot;eslint&quot;
         },
         {
-            &rdquo;type&rdquo;: &rdquo;node&rdquo;,
-            &rdquo;request&rdquo;: &rdquo;launch&rdquo;,
-            &rdquo;name&rdquo;: &rdquo;Mocha All&rdquo;,
-            &rdquo;program&rdquo;: &rdquo;${workspaceFolder}/node_modules/mocha/bin/_mocha&rdquo;,
-            &rdquo;args&rdquo;: [
-                &rdquo;&ndash;timeout&rdquo;,
-                &rdquo;999999&rdquo;,
-                &rdquo;&ndash;colors&rdquo;,
-                &rdquo;${workspaceFolder}/test&rdquo;,
-                &rdquo;&ndash;port&rdquo;,
-                &rdquo;800&rdquo;,
-                &rdquo;&ndash;debug&rdquo;,
-                &rdquo;yes&rdquo;,
-                &rdquo;&ndash;flags&rdquo;,
-                &rdquo;w&rdquo;
+            &quot;type&quot;: &quot;node&quot;,
+            &quot;request&quot;: &quot;launch&quot;,
+            &quot;name&quot;: &quot;Mocha All&quot;,
+            &quot;program&quot;: &quot;${workspaceFolder}/node_modules/mocha/bin/_mocha&quot;,
+            &quot;args&quot;: [
+                &quot;--timeout&quot;,
+                &quot;999999&quot;,
+                &quot;--colors&quot;,
+                &quot;${workspaceFolder}/test&quot;,
+                &quot;--port&quot;,
+                &quot;800&quot;,
+                &quot;--debug&quot;,
+                &quot;yes&quot;,
+                &quot;--flags&quot;,
+                &quot;w&quot;
             ],
-            &rdquo;env&rdquo;: {
-                &rdquo;NODE_ENV&rdquo;: &rdquo;development&rdquo;
+            &quot;env&quot;: {
+                &quot;NODE_ENV&quot;: &quot;development&quot;
             },
-            &rdquo;skipFiles&rdquo;: [
-                &rdquo;<node_internals>/</strong>&rdquo;,
-                &rdquo;async_hooks.js&rdquo;,
-                &rdquo;inspector_async_hook.js&rdquo;
+            &quot;skipFiles&quot;: [
+                &quot;&lt;node_internals&gt;/**&quot;,
+                &quot;async_hooks.js&quot;,
+                &quot;inspector_async_hook.js&quot;
             ],
-            &rdquo;console&rdquo;: &rdquo;integratedTerminal&rdquo;,
-            &rdquo;internalConsoleOptions&rdquo;: &rdquo;neverOpen&rdquo;
+            &quot;console&quot;: &quot;integratedTerminal&quot;,
+            &quot;internalConsoleOptions&quot;: &quot;neverOpen&quot;
         },
         {
-            &rdquo;type&rdquo;: &rdquo;node&rdquo;,
-            &rdquo;request&rdquo;: &rdquo;launch&rdquo;,
-            &rdquo;name&rdquo;: &rdquo;Mocha Current File&rdquo;,
-            &rdquo;program&rdquo;: &rdquo;${workspaceFolder}/node_modules/mocha/bin/_mocha&rdquo;,
-            &rdquo;args&rdquo;: [
-                &rdquo;&ndash;timeout&rdquo;,
-                &rdquo;999999&rdquo;,
-                &rdquo;&ndash;colors&rdquo;,
-                &rdquo;${file}&ldquo;,
-                &rdquo;&ndash;port&rdquo;,
-                &rdquo;800&rdquo;,
-                &rdquo;&ndash;debug&rdquo;,
-                &rdquo;yes&rdquo;,
-                &rdquo;&ndash;flags&rdquo;,
-                &rdquo;w&rdquo;
+            &quot;type&quot;: &quot;node&quot;,
+            &quot;request&quot;: &quot;launch&quot;,
+            &quot;name&quot;: &quot;Mocha Current File&quot;,
+            &quot;program&quot;: &quot;${workspaceFolder}/node_modules/mocha/bin/_mocha&quot;,
+            &quot;args&quot;: [
+                &quot;--timeout&quot;,
+                &quot;999999&quot;,
+                &quot;--colors&quot;,
+                &quot;${file}&quot;,
+                &quot;--port&quot;,
+                &quot;800&quot;,
+                &quot;--debug&quot;,
+                &quot;yes&quot;,
+                &quot;--flags&quot;,
+                &quot;w&quot;
             ],
-            &rdquo;env&rdquo;: {
-                &rdquo;NODE_ENV&rdquo;: &rdquo;development&rdquo;
+            &quot;env&quot;: {
+                &quot;NODE_ENV&quot;: &quot;development&quot;
             },
-            &rdquo;skipFiles&rdquo;: [
-                &rdquo;<node_internals>/**&ldquo;,
-                &rdquo;async_hooks.js&rdquo;,
-                &rdquo;inspector_async_hook.js&rdquo;
+            &quot;skipFiles&quot;: [
+                &quot;&lt;node_internals&gt;/**&quot;,
+                &quot;async_hooks.js&quot;,
+                &quot;inspector_async_hook.js&quot;
             ],
-            &rdquo;console&rdquo;: &rdquo;integratedTerminal&rdquo;,
-            &rdquo;internalConsoleOptions&rdquo;: &rdquo;neverOpen&rdquo;
+            &quot;console&quot;: &quot;integratedTerminal&quot;,
+            &quot;internalConsoleOptions&quot;: &quot;neverOpen&quot;
         }
     ],
-}</p>
+}
+</code></pre>
 <ul class="pa0">
   
 </ul>
@@ -236,7 +235,7 @@ launch.json文件模板 { // Use IntelliSense to learn about possible att
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://ludeen007.github.io/" >
-    &copy; 2019 千里之行始于足下
+    &copy; 2020 千里之行始于足下
   </a>
     <div>
 
