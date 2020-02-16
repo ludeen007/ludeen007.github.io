@@ -103,11 +103,11 @@
   </url>
   
   <url>
-    <loc>https://ludeen007.github.io/tags/bash%E5%91%BD%E4%BB%A4/</loc>
+    <loc>https://ludeen007.github.io/categories/bash%E5%91%BD%E4%BB%A4/</loc>
   </url>
   
   <url>
-    <loc>https://ludeen007.github.io/categories/bash%E5%91%BD%E4%BB%A4/</loc>
+    <loc>https://ludeen007.github.io/tags/bash%E5%91%BD%E4%BB%A4/</loc>
   </url>
   
   <url>
@@ -119,11 +119,11 @@
   </url>
   
   <url>
-    <loc>https://ludeen007.github.io/categories/couchdb/</loc>
+    <loc>https://ludeen007.github.io/tags/couchdb/</loc>
   </url>
   
   <url>
-    <loc>https://ludeen007.github.io/tags/couchdb/</loc>
+    <loc>https://ludeen007.github.io/categories/couchdb/</loc>
   </url>
   
   <url>
@@ -136,6 +136,10 @@
   
   <url>
     <loc>https://ludeen007.github.io/tags/crontab/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ludeen007.github.io/tags/css/</loc>
   </url>
   
   <url>
@@ -160,6 +164,10 @@
   
   <url>
     <loc>https://ludeen007.github.io/categories/fabric%E5%91%BD%E4%BB%A4/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ludeen007.github.io/tags/frontend/</loc>
   </url>
   
   <url>
@@ -196,6 +204,14 @@
   
   <url>
     <loc>https://ludeen007.github.io/tags/linux/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ludeen007.github.io/tags/notes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ludeen007.github.io/categories/notes/</loc>
   </url>
   
   <url>
@@ -256,6 +272,10 @@
   
   <url>
     <loc>https://ludeen007.github.io/posts/reading-notes/spring-microservice-in-action/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ludeen007.github.io/posts/css/</loc>
   </url>
   
   <url>
