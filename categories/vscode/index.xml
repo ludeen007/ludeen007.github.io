@@ -1,41 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>VSCode on 千里之行始于足下</title>
     <link>https://ludeen007.github.io/categories/vscode/</link>
     <description>Recent content in VSCode on 千里之行始于足下</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <managingEditor>ludeen007@gmail.com (jack)</managingEditor>
+    <webMaster>ludeen007@gmail.com (jack)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
     
-	<atom:link href="https://ludeen007.github.io/categories/vscode/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://ludeen007.github.io/categories/vscode/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>VSCode launch.json示例</title>
-      <link>https://ludeen007.github.io/posts/vscode/vscode-launch/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+    
+
       
-      <guid>https://ludeen007.github.io/posts/vscode/vscode-launch/</guid>
-      <description>调试bash脚本 { // Use IntelliSense to learn about possible attributes. // Hover to view descriptions of existing attributes. // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387 &amp;quot;version&amp;quot;: &amp;quot;0.2.0&amp;quot;, &amp;quot;configurations&amp;quot;: [{ &amp;quot;type&amp;quot;: &amp;quot;bashdb&amp;quot;, &amp;quot;request&amp;quot;: &amp;quot;launch&amp;quot;, &amp;quot;name&amp;quot;: &amp;quot;Bash-Debug (select script from list of sh files)&amp;quot;, &amp;quot;cwd&amp;quot;: &amp;quot;${workspaceFolder}&amp;quot;, &amp;quot;program&amp;quot;: &amp;quot;${command:SelectScriptName}&amp;quot;, &amp;quot;args&amp;quot;: [] } ] }  launch.json文件模板 { // Use IntelliSense to learn about possible attributes. // Hover to view descriptions of existing attributes. // For more information, visit: https://go.</description>
-    </item>
-    
-    <item>
-      <title>VSCode 使用技巧</title>
-      <link>https://ludeen007.github.io/posts/vscode/tips/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <item>
+        <title>VSCode</title>
+        <link>https://ludeen007.github.io/en/posts/vscode/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/en/posts/vscode/</guid>
+        <description>一、 使用技巧 1. windows 上配置 git-bash 为默认的 bash 确保已经安装 git-bash 配置文件 settings.json 加入以下内容即可 &amp;ldquo;terminal.integrated.shell.windows&amp;rdquo;: &amp;ldquo;D:\Program Files\Git\bin\bash.exe&amp;rdquo; 2. 一次编辑多行 选好位置，比如行首，按 Ctrl+F2 进入列模式 二、 配置 VSCode 远</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Tools</category>
+            
+          
+            
+              <category>VSCode</category>
+            
+          
+            
+              <category>tips</category>
+            
+          
+        
+        
+          
+            
+              <category>VSCode</category>
+            
+          
+        
+        
+      </item>
       
-      <guid>https://ludeen007.github.io/posts/vscode/tips/</guid>
-      <description>windows上配置git-bash为默认的bash  确保已经安装git-bash 配置文件settings.json加入 &amp;ldquo;terminal.integrated.shell.windows&amp;rdquo;: &amp;rdquo;D:\Program Files\Git\bin\bash.exe&amp;rdquo; 即可。  一次编辑多行 选好位置，比如行首，按Ctrl+F2进入列模式</description>
-    </item>
-    
-    <item>
-      <title>配置VSCode远程开发</title>
-      <link>https://ludeen007.github.io/posts/vscode/vscode-remote/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ludeen007.github.io/posts/vscode/vscode-remote/</guid>
-      <description> 注意在Win10上运行git-bash执行以下命令 REMOTEHOST=root@172.x.y.z scp $USERPROFILE/.ssh/id_rsa.pub $REMOTEHOST:~/tmp.pub ssh $REMOTEHOST &amp;quot;mkdir -p ~/.ssh &amp;amp;&amp;amp; chmod 700 ~/.ssh &amp;amp;&amp;amp; cat ~/tmp.pub &amp;gt;&amp;gt; ~/.ssh/authorized_keys &amp;amp;&amp;amp; chmod 600 ~/.ssh/authorized_keys &amp;amp;&amp;amp; rm -f ~/tmp.pub&amp;quot;  最后一步，在~/.ssh/vscode-remote-config文件里添加远程主机的ip等信息，例子如下 Host CentOSxxx User root HostName 172.x.y.z  详见 https://code.visualstudio.com/docs/remote/troubleshooting#_configuring-key-based-authentication </description>
-    </item>
+
     
   </channel>
 </rss>

@@ -1,32 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Docker on 千里之行始于足下</title>
     <link>https://ludeen007.github.io/tags/docker/</link>
     <description>Recent content in Docker on 千里之行始于足下</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <managingEditor>ludeen007@gmail.com (jack)</managingEditor>
+    <webMaster>ludeen007@gmail.com (jack)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
     
-	<atom:link href="https://ludeen007.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://ludeen007.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>docker命令</title>
-      <link>https://ludeen007.github.io/posts/virtualization/docker/docker-cli/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+    
+
       
-      <guid>https://ludeen007.github.io/posts/virtualization/docker/docker-cli/</guid>
-      <description>docker ps | awk &#39;{print $NF}&#39; | tail -7 #TODO 合并显示两栏，左边容器名，右边容器ip docker ps | awk &#39;{print $NF}&#39; | tail -7 | xargs docker inspect -f &#39;{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}&#39; docker ps | awk &#39;{print $NF}&#39; | tail -7 | xargs docker inspect -f &#39;{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}&#39; docker rmi -f $(docker image ls | awk &#39;{print $1}&#39;) #进入容器执行命令 docker exec -it cli bash #删除卷 docker volume rm $(docker volume ls | tail -n +2 | awk &#39;{print $NF}&#39;) #拷出容器里的文件 docker cp containerid:/some/path/file .</description>
-    </item>
-    
-    <item>
-      <title>搭建harbor.io私有容器仓库</title>
-      <link>https://ludeen007.github.io/posts/virtualization/docker/harbor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <item>
+        <title>docker</title>
+        <link>https://ludeen007.github.io/en/posts/docker/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/en/posts/docker/</guid>
+        <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 docker ps | awk &amp;#39;{print $NF}&amp;#39; | tail -7 #TODO 合并显示两栏，左边容器名，右边容器ip docker ps | awk &amp;#39;{print $NF}&amp;#39; | tail -7 | xargs docker inspect -f &amp;#39;{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}&amp;#39; docker ps | awk &amp;#39;{print $NF}&amp;#39; | tail -7</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Docker</category>
+            
+          
+        
+        
+          
+            
+              <category>Docker</category>
+            
+          
+        
+        
+      </item>
       
-      <guid>https://ludeen007.github.io/posts/virtualization/docker/harbor/</guid>
-      <description>#hosts 配置： #172.x.y.z harbor.io #登陆 docker login -u admin -p admin harbor.io #创建、改标签、推送镜像 docker build -t mynode:v1.0 . docker tag mynode:v1.0 harbor.io/nodejs/mynode:v1.0 docker push harbor.io/nodejs/mynode:v1.0  </description>
-    </item>
+
     
   </channel>
 </rss>

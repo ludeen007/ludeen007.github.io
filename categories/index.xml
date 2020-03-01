@@ -1,141 +1,172 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Categories on 千里之行始于足下</title>
     <link>https://ludeen007.github.io/categories/</link>
     <description>Recent content in Categories on 千里之行始于足下</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <managingEditor>ludeen007@gmail.com (jack)</managingEditor>
+    <webMaster>ludeen007@gmail.com (jack)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 11 Dec 2019 18:42:55 +0800</lastBuildDate>
     
-	<atom:link href="https://ludeen007.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://ludeen007.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>读书笔记</title>
-      <link>https://ludeen007.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
-      <pubDate>Wed, 11 Dec 2019 18:42:55 +0800</pubDate>
+    
+
       
-      <guid>https://ludeen007.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bash命令</title>
-      <link>https://ludeen007.github.io/categories/bash%E5%91%BD%E4%BB%A4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <item>
+        <title>读书笔记</title>
+        <link>https://ludeen007.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Wed, 11 Dec 2019 18:42:55 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+        <description></description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://ludeen007.github.io/categories/bash%E5%91%BD%E4%BB%A4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Couchdb</title>
-      <link>https://ludeen007.github.io/categories/couchdb/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <item>
+        <title>Bash命令</title>
+        <link>https://ludeen007.github.io/categories/bash%E5%91%BD%E4%BB%A4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/categories/bash%E5%91%BD%E4%BB%A4/</guid>
+        <description></description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://ludeen007.github.io/categories/couchdb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>crontab</title>
-      <link>https://ludeen007.github.io/categories/crontab/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <item>
+        <title>Docker</title>
+        <link>https://ludeen007.github.io/categories/docker/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/categories/docker/</guid>
+        <description></description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://ludeen007.github.io/categories/crontab/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://ludeen007.github.io/categories/docker/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <item>
+        <title>Fabric</title>
+        <link>https://ludeen007.github.io/categories/fabric/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/categories/fabric/</guid>
+        <description></description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://ludeen007.github.io/categories/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fabric命令</title>
-      <link>https://ludeen007.github.io/categories/fabric%E5%91%BD%E4%BB%A4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <item>
+        <title>know-how</title>
+        <link>https://ludeen007.github.io/categories/know-how/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/categories/know-how/</guid>
+        <description></description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://ludeen007.github.io/categories/fabric%E5%91%BD%E4%BB%A4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kubernetes</title>
-      <link>https://ludeen007.github.io/categories/kubernetes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <item>
+        <title>Kubernetes</title>
+        <link>https://ludeen007.github.io/categories/kubernetes/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/categories/kubernetes/</guid>
+        <description></description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://ludeen007.github.io/categories/kubernetes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>https://ludeen007.github.io/categories/notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <item>
+        <title>notes</title>
+        <link>https://ludeen007.github.io/categories/notes/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/categories/notes/</guid>
+        <description></description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://ludeen007.github.io/categories/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vim</title>
-      <link>https://ludeen007.github.io/categories/vim/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <item>
+        <title>VSCode</title>
+        <link>https://ludeen007.github.io/categories/vscode/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/categories/vscode/</guid>
+        <description></description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://ludeen007.github.io/categories/vim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VSCode</title>
-      <link>https://ludeen007.github.io/categories/vscode/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ludeen007.github.io/categories/vscode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Windows CMD命令</title>
-      <link>https://ludeen007.github.io/categories/windows-cmd%E5%91%BD%E4%BB%A4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ludeen007.github.io/categories/windows-cmd%E5%91%BD%E4%BB%A4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>技巧</title>
-      <link>https://ludeen007.github.io/categories/%E6%8A%80%E5%B7%A7/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ludeen007.github.io/categories/%E6%8A%80%E5%B7%A7/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>编程语言</title>
-      <link>https://ludeen007.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ludeen007.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>踩坑</title>
-      <link>https://ludeen007.github.io/categories/%E8%B8%A9%E5%9D%91/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ludeen007.github.io/categories/%E8%B8%A9%E5%9D%91/</guid>
-      <description></description>
-    </item>
+
     
   </channel>
 </rss>

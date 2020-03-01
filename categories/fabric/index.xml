@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Fabric on 千里之行始于足下</title>
+    <link>https://ludeen007.github.io/categories/fabric/</link>
+    <description>Recent content in Fabric on 千里之行始于足下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ludeen007@gmail.com (jack)</managingEditor>
+    <webMaster>ludeen007@gmail.com (jack)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="https://ludeen007.github.io/categories/fabric/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Couchdb</title>
+        <link>https://ludeen007.github.io/en/posts/fabric/couchdb/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/en/posts/fabric/couchdb/</guid>
+        <description>Couchdb 校验数据入库，比如在 wallet 验证身份(可扩展到查询其他数据) 1. 去可视化页面里进行人工查验 couchdb 服务起来后，访问 http://IP:PORT/_utils/index.html 来查看数据库 查看应用日志，找到标志身</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Fabric</category>
+            
+          
+            
+              <category>Couchdb</category>
+            
+          
+        
+        
+          
+            
+              <category>Fabric</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Fabric 命令行工具使用</title>
+        <link>https://ludeen007.github.io/en/posts/fabric/fabric/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/en/posts/fabric/fabric/</guid>
+        <description>Fabric 命令行工具 configtxlator 1 2 #创世块的内容转为json，里面有configtx.yaml文件的内容，尤其是policies的。 configtxlator proto_decode --input genesis.block --type common.Block &amp;gt;&amp;gt; genesis.block.json 上图箭头</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Fabric</category>
+            
+          
+        
+        
+          
+            
+              <category>Fabric</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>openssl</title>
+        <link>https://ludeen007.github.io/en/posts/fabric/openssl/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/en/posts/fabric/openssl/</guid>
+        <description>openssl 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 # openssl查看证书内容 openssl x509 -text -noout -in ca.example.com-cert.pem openssl crl -in /root/fabric-ca/clients/admin/msp/crls/crl.pem -text -noout openssl crl -text -noout -in ca.pem # 查看keyusa</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Fabric</category>
+            
+          
+            
+              <category>openssl</category>
+            
+          
+        
+        
+          
+            
+              <category>Fabric</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

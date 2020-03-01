@@ -1,23 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>openssl on 千里之行始于足下</title>
     <link>https://ludeen007.github.io/tags/openssl/</link>
     <description>Recent content in openssl on 千里之行始于足下</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <managingEditor>ludeen007@gmail.com (jack)</managingEditor>
+    <webMaster>ludeen007@gmail.com (jack)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
     
-	<atom:link href="https://ludeen007.github.io/tags/openssl/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://ludeen007.github.io/tags/openssl/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>openssl</title>
-      <link>https://ludeen007.github.io/posts/linux-bash-cmd/openssl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+    
+
       
-      <guid>https://ludeen007.github.io/posts/linux-bash-cmd/openssl/</guid>
-      <description>openssl # openssl查看证书内容 openssl x509 -text -noout -in ca.example.com-cert.pem openssl crl -in /root/fabric-ca/clients/admin/msp/crls/crl.pem -text -noout openssl crl -text -noout -in ca.pem # 查看keyusage openssl x509 -in ca-cert.pem -purpose -noout -text #验证证书链 openssl verify -CAfile ca.pem user.pem #How do I get common name (CN) from SSL certificate? openssl x509 -noout -subject -in your-file.pem #自签名是用以下命令查看Subject：和Issuer：的内容相同。 openssl x509 -text -noout -in 1.pem #验证2.pem是1.pem颁发的命令(验证通过只返回OK) openssl verify -verbose -CAfile 1.pem 2.pem certificate signed by unknown authority: openssl x509 -noout -text -in cacerts/cacert.</description>
-    </item>
+      <item>
+        <title>openssl</title>
+        <link>https://ludeen007.github.io/en/posts/fabric/openssl/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/en/posts/fabric/openssl/</guid>
+        <description>openssl 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 # openssl查看证书内容 openssl x509 -text -noout -in ca.example.com-cert.pem openssl crl -in /root/fabric-ca/clients/admin/msp/crls/crl.pem -text -noout openssl crl -text -noout -in ca.pem # 查看keyusa</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Fabric</category>
+            
+          
+            
+              <category>openssl</category>
+            
+          
+        
+        
+          
+            
+              <category>Fabric</category>
+            
+          
+        
+        
+      </item>
+      
+
     
   </channel>
 </rss>
