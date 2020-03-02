@@ -3,31 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ludeen007.github.io/gallery/</loc>
-    <lastmod>2020-03-01T15:57:01+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ludeen007.github.io/gallery/photo/</loc>
-    <lastmod>2020-03-01T15:57:01+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ludeen007.github.io/archive/</loc>
-    <lastmod>2020-01-30T12:50:46+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ludeen007.github.io/</loc>
-    <lastmod>2020-01-30T12:50:46+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ludeen007.github.io/contact/</loc>
-    <lastmod>2019-12-17T23:58:33+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ludeen007.github.io/categories/</loc>
     <lastmod>2019-12-11T18:42:55+08:00</lastmod>
   </url>
@@ -59,6 +34,11 @@
   
   <url>
     <loc>https://ludeen007.github.io/en/posts/reading-notes/progit2e/</loc>
+    <lastmod>2019-12-11T18:42:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ludeen007.github.io/</loc>
     <lastmod>2019-12-11T18:42:55+08:00</lastmod>
   </url>
   
@@ -204,10 +184,6 @@
   
   <url>
     <loc>https://ludeen007.github.io/en/posts/vscode/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ludeen007.github.io/about/</loc>
   </url>
   
   <url>

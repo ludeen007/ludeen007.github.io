@@ -14,7 +14,7 @@
     <managingEditor>ludeen007@gmail.com (jack)</managingEditor>
     <webMaster>ludeen007@gmail.com (jack)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 30 Jan 2020 12:50:46 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2019 18:42:55 +0800</lastBuildDate>
     
         <atom:link href="https://ludeen007.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -216,7 +216,7 @@
         <author>ludeen007@gmail.com (jack)</author>
         
         <guid>https://ludeen007.github.io/en/posts/docker/</guid>
-        <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 docker ps | awk &amp;#39;{print $NF}&amp;#39; | tail -7 #TODO 合并显示两栏，左边容器名，右边容器ip docker ps | awk &amp;#39;{print $NF}&amp;#39; | tail -7 | xargs docker inspect -f &amp;#39;{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}&amp;#39; docker ps | awk &amp;#39;{print $NF}&amp;#39; | tail -7</description>
+        <description>TODO: 待整理 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 docker ps | awk &amp;#39;{print $NF}&amp;#39; | tail -7 #TODO 合并显示两栏，左边容器名，右边容器ip docker ps | awk &amp;#39;{print $NF}&amp;#39; | tail -7 | xargs docker inspect -f &amp;#39;{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}&amp;#39; docker ps | awk &amp;#39;{print</description>
         
         <dc:creator>jack</dc:creator>
         
