@@ -1249,7 +1249,7 @@
     "datePublished": "0001-01-01T00:00:00Z",
     "dateModified": "0001-01-01T00:00:00Z",
     "url" : "https://ludeen007.github.io/en/posts/git/",
-    "description": "git 命令 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 #对比两个分支 git diff branch1..branch2 #避免git …",
+    "description": "git 最佳实践 bash-git-prompt 在 bash 命令提示符后面，显示有用的 git 信息，比如有几个文件改动等 https://github.com/magicmonty/bash-git-prompt git 命令别名，减少打字 https://github.com/GitAlias/gitalias git cheat …",
     "keywords": ["Bash命令","Git","Linux"],
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -1516,7 +1516,17 @@
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <h2 id="git-命令">git 命令</h2>
+      <h2 id="git-最佳实践">git 最佳实践</h2>
+<h3 id="bash-git-prompt">bash-git-prompt</h3>
+<p>在 bash 命令提示符后面，显示有用的 git 信息，比如有几个文件改动等<br />
+<a href="https://github.com/magicmonty/bash-git-prompt">https://github.com/magicmonty/bash-git-prompt</a></p>
+<h3 id="git-命令别名减少打字">git 命令别名，减少打字</h3>
+<p><a href="https://github.com/GitAlias/gitalias">https://github.com/GitAlias/gitalias</a></p>
+<h3 id="git-cheat-sheet">git cheat sheet</h3>
+<p><a href="https://github.com/arslanbilal/git-cheat-sheet">https://github.com/arslanbilal/git-cheat-sheet</a></p>
+<h3 id="git-tips">git tips</h3>
+<p><a href="https://github.com/git-tips/tips">https://github.com/git-tips/tips</a></p>
+<h2 id="git-命令">git 命令</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -1562,6 +1572,24 @@
 </span><span class="lnt">41
 </span><span class="lnt">42
 </span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#对比两个分支</span>
@@ -1572,6 +1600,9 @@ git config credential.helper store
 
 <span class="c1">#当改了很多代码，却又只想提交某部分修改，用以下命令，详见https://stackoverflow.com/questions/1085162/commit-only-part-of-a-file-in-git</span>
 git add --patch filename
+
+<span class="c1">#查看diff，只看新增和修改，不看删除等</span>
+git diff --diff-filter<span class="o">=</span>AM
 
 <span class="c1">#格式化git commit message</span>
 npx git-cz
@@ -1603,10 +1634,25 @@ git rev-parse --git-path hooks
 git diff alpha tmp --name-only <span class="p">|</span> grep -v <span class="s2">&#34;crypto-config&#34;</span>
 <span class="c1">#对比两个git分支，且忽略指定目录和文件</span>
 git diff accfa7d7  HEAD <span class="s2">&#34;:(exclude)node_modules/&#34;</span> <span class="s2">&#34;:(exclude)*.yaml&#34;</span>
-如果经常需要忽略某个目录，比如node_modules/，可以在/etc/profile加入环境变量
+
+<span class="c1">#如果经常需要忽略某个目录，比如node_modules/，可以在/etc/profile加入环境变量</span>
 <span class="nv">EXCL</span><span class="o">=</span><span class="s2">&#34;:(exclude)node_modules/&#34;</span>
-然后执行命令时引用它
+<span class="c1">#然后执行命令时引用它</span>
 git diff --cached --name-only <span class="nv">$EXCL</span>
+
+<span class="c1">#conditional config on Windows，在Windows系统的某些目录下用新的配置文件</span>
+.gitconfig添加includeIf定制某些目录下git用别的配置文件
+示例：目录c:/directory-name/subdir/下，用email user2@two.com而不是全局的email user1@one.com
+.gitconfig内容示例
+<span class="o">[</span>user<span class="o">]</span>
+        <span class="nv">name</span> <span class="o">=</span> user1
+        <span class="nv">email</span> <span class="o">=</span> user1@one.com
+<span class="o">[</span>includeIf <span class="s2">&#34;gitdir/i:c:/directory-name/subdir/&#34;</span><span class="o">]</span>
+        <span class="nv">path</span> <span class="o">=</span> .gitconfig-another
+.gitconfig-another 设置别的配置项，比如 email
+.gitconfig-another内容示例
+<span class="o">[</span>user<span class="o">]</span>
+        <span class="nv">email</span> <span class="o">=</span> user2@two.com
 </code></pre></td></tr></table>
 </div>
 </div>
@@ -2114,6 +2160,14 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="toc " data-dir="ltr" data-folding="false" data-ani="true">
     <nav id="TableOfContents">
   <ul>
+    <li><a href="#git-最佳实践">git 最佳实践</a>
+      <ul>
+        <li><a href="#bash-git-prompt">bash-git-prompt</a></li>
+        <li><a href="#git-命令别名减少打字">git 命令别名，减少打字</a></li>
+        <li><a href="#git-cheat-sheet">git cheat sheet</a></li>
+        <li><a href="#git-tips">git tips</a></li>
+      </ul>
+    </li>
     <li><a href="#git-命令">git 命令</a></li>
   </ul>
 </nav>
