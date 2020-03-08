@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>design-pattern on 千里之行始于足下</title>
+    <link>https://ludeen007.github.io/categories/design-pattern/</link>
+    <description>Recent content in design-pattern on 千里之行始于足下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ludeen007@gmail.com (jack)</managingEditor>
+    <webMaster>ludeen007@gmail.com (jack)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 08 Mar 2020 14:36:09 +0800</lastBuildDate>
+    
+        <atom:link href="https://ludeen007.github.io/categories/design-pattern/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>设计模式中英文对照</title>
+        <link>https://ludeen007.github.io/en/posts/design-pattern/</link>
+        <pubDate>Sun, 08 Mar 2020 14:36:09 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 14:36:09 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/design-pattern/</guid>
+        <description>设计模式中英文对照 中文 英文 创建型模式 Creational Patterns 1.工厂方法模式 Factory Method Pattern 2.抽象工厂模式 Abstract Factory Pattern 3.建造者模式 Builder Pattern 4.原型模式 Prototype Pattern 5.单例模式 Singleton Pattern 结构型</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>design-pattern</category>
+            
+          
+        
+        
+          
+            
+              <category>design-pattern</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>node.js on 千里之行始于足下</title>
+    <link>https://ludeen007.github.io/categories/node.js/</link>
+    <description>Recent content in node.js on 千里之行始于足下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ludeen007@gmail.com (jack)</managingEditor>
+    <webMaster>ludeen007@gmail.com (jack)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 08 Mar 2020 08:04:55 +0800</lastBuildDate>
+    
+        <atom:link href="https://ludeen007.github.io/categories/node.js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>node.js</title>
+        <link>https://ludeen007.github.io/en/posts/nodejs/</link>
+        <pubDate>Sun, 08 Mar 2020 08:04:55 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 08:04:55 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/nodejs/</guid>
+        <description>best practices https://github.com/goldbergyoni/nodebestpractices</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>node.js</category>
+            
+          
+        
+        
+          
+            
+              <category>node.js</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

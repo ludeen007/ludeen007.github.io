@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Markdown on 千里之行始于足下</title>
+    <link>https://ludeen007.github.io/tags/markdown/</link>
+    <description>Recent content in Markdown on 千里之行始于足下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ludeen007@gmail.com (jack)</managingEditor>
+    <webMaster>ludeen007@gmail.com (jack)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 08 Mar 2020 15:26:09 +0800</lastBuildDate>
+    
+        <atom:link href="https://ludeen007.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Markdown Cheat Sheet</title>
+        <link>https://ludeen007.github.io/en/posts/markdown-cheat-sheet/</link>
+        <pubDate>Sun, 08 Mar 2020 15:26:09 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 15:26:09 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/markdown-cheat-sheet/</guid>
+        <description>Markdown Cheatsheet Heading 1 Markup : # Heading 1 # -OR- Markup : ============= (below H1 text) Heading 2 Markup : ## Heading 2 ## -OR- Markup: --------------- (below H2 text) Heading 3 Markup : ### Heading 3 ### Heading 4 Markup : #### Heading 4 #### Common text Markup : Common text Emphasized text Markup : _Emphasized text_ or *Emphasized text* Strikethrough text Markup : ~~Strikethrough text~~ Strong text</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Markdown</category>
+            
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

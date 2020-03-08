@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>cheat-sheet on 千里之行始于足下</title>
+    <link>https://ludeen007.github.io/categories/cheat-sheet/</link>
+    <description>Recent content in cheat-sheet on 千里之行始于足下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ludeen007@gmail.com (jack)</managingEditor>
+    <webMaster>ludeen007@gmail.com (jack)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 08 Mar 2020 15:26:09 +0800</lastBuildDate>
+    
+        <atom:link href="https://ludeen007.github.io/categories/cheat-sheet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Markdown Cheat Sheet</title>
+        <link>https://ludeen007.github.io/en/posts/markdown-cheat-sheet/</link>
+        <pubDate>Sun, 08 Mar 2020 15:26:09 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 15:26:09 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/markdown-cheat-sheet/</guid>
+        <description>Markdown Cheatsheet Heading 1 Markup : # Heading 1 # -OR- Markup : ============= (below H1 text) Heading 2 Markup : ## Heading 2 ## -OR- Markup: --------------- (below H2 text) Heading 3 Markup : ### Heading 3 ### Heading 4 Markup : #### Heading 4 #### Common text Markup : Common text Emphasized text Markup : _Emphasized text_ or *Emphasized text* Strikethrough text Markup : ~~Strikethrough text~~ Strong text</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Markdown</category>
+            
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Vim Cheat Sheet</title>
+        <link>https://ludeen007.github.io/en/posts/vim-cheat-sheet/</link>
+        <pubDate>Sun, 08 Mar 2020 14:26:09 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 14:26:09 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/vim-cheat-sheet/</guid>
+        <description>Vim Cheat Sheet Vim使用图解</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Vim</category>
+            
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Bash Shortcuts Cheat Sheet</title>
+        <link>https://ludeen007.github.io/en/posts/bash/</link>
+        <pubDate>Sun, 08 Mar 2020 09:46:09 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 09:46:09 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/bash/</guid>
+        <description>Bash Shell 快捷键 进程控制 Ctrl + C 终止命令执行 Ctrl + Z suspend command/send to background(use fg to bring forward) Ctrl + D 关闭Bash Shell 控制屏幕输出 Ctrl + L 清屏 Ctrl + S 停止输出到屏幕(for verbose commands) Ctrl + Q 允</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+            
+              <category>shortcut</category>
+            
+          
+        
+        
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Big-O Cheat Sheet</title>
+        <link>https://ludeen007.github.io/en/posts/big-o-cheat-sheet/</link>
+        <pubDate>Sun, 08 Mar 2020 09:26:09 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 09:26:09 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/big-o-cheat-sheet/</guid>
+        <description>Big-O Cheat Sheet 常见数据结构的各种操作和排序算法的时间/空间复杂度 来自 https://www.bigocheatsheet.com/</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

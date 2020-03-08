@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>cheat-sheet on 千里之行始于足下</title>
+    <link>https://ludeen007.github.io/tags/cheat-sheet/</link>
+    <description>Recent content in cheat-sheet on 千里之行始于足下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ludeen007@gmail.com (jack)</managingEditor>
+    <webMaster>ludeen007@gmail.com (jack)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 08 Mar 2020 15:26:09 +0800</lastBuildDate>
+    
+        <atom:link href="https://ludeen007.github.io/tags/cheat-sheet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Markdown Cheat Sheet</title>
+        <link>https://ludeen007.github.io/en/posts/markdown-cheat-sheet/</link>
+        <pubDate>Sun, 08 Mar 2020 15:26:09 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 15:26:09 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/markdown-cheat-sheet/</guid>
+        <description>Markdown Cheatsheet Heading 1 Markup : # Heading 1 # -OR- Markup : ============= (below H1 text) Heading 2 Markup : ## Heading 2 ## -OR- Markup: --------------- (below H2 text) Heading 3 Markup : ### Heading 3 ### Heading 4 Markup : #### Heading 4 #### Common text Markup : Common text Emphasized text Markup : _Emphasized text_ or *Emphasized text* Strikethrough text Markup : ~~Strikethrough text~~ Strong text</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Markdown</category>
+            
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Vim Cheat Sheet</title>
+        <link>https://ludeen007.github.io/en/posts/vim-cheat-sheet/</link>
+        <pubDate>Sun, 08 Mar 2020 14:26:09 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 14:26:09 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/vim-cheat-sheet/</guid>
+        <description>Vim Cheat Sheet Vim使用图解</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Vim</category>
+            
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>General Use Cases for C&#43;&#43; Containers</title>
+        <link>https://ludeen007.github.io/en/posts/c&#43;&#43;/generalusecasesforc&#43;&#43;containers/</link>
+        <pubDate>Sun, 08 Mar 2020 13:55:09 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 13:55:09 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/c&#43;&#43;/generalusecasesforc&#43;&#43;containers/</guid>
+        <description>General Use Cases for C++ Containers 容器选型参考</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+          
+            
+              <category>C&#43;&#43;</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>C&#43;&#43; Container Class Member function table</title>
+        <link>https://ludeen007.github.io/en/posts/c&#43;&#43;/c&#43;&#43;-container-class-member-function-table/</link>
+        <pubDate>Sun, 08 Mar 2020 13:51:09 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 13:51:09 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/c&#43;&#43;/c&#43;&#43;-container-class-member-function-table/</guid>
+        <description>C++ Container Class Member function table 常见容器的成员函数，方便速查使用 源自https://en.cppreference.com/w/cpp/container</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+          
+            
+              <category>C&#43;&#43;</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>C&#43;&#43; Operator Precedence and Associativity</title>
+        <link>https://ludeen007.github.io/en/posts/c&#43;&#43;/c&#43;&#43;-operator-precedence-and-associativity/</link>
+        <pubDate>Sun, 08 Mar 2020 12:39:09 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 12:39:09 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/c&#43;&#43;/c&#43;&#43;-operator-precedence-and-associativity/</guid>
+        <description>C++ Built-in Operators, Precedence and Associativity The C++ language includes all C operators and adds several new operators. Operators specify an evaluation to be performed on one or more operands. Operator precedence specifies the order of operations in expressions that contain more than one operator. Operator associativity specifies whether, in an expression that contains multiple operators with the same precedence, an operand is grouped with the one on its left</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>C&#43;&#43;</category>
+            
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+          
+            
+              <category>C&#43;&#43;</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Bash Shortcuts Cheat Sheet</title>
+        <link>https://ludeen007.github.io/en/posts/bash/</link>
+        <pubDate>Sun, 08 Mar 2020 09:46:09 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 09:46:09 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/bash/</guid>
+        <description>Bash Shell 快捷键 进程控制 Ctrl + C 终止命令执行 Ctrl + Z suspend command/send to background(use fg to bring forward) Ctrl + D 关闭Bash Shell 控制屏幕输出 Ctrl + L 清屏 Ctrl + S 停止输出到屏幕(for verbose commands) Ctrl + Q 允</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+            
+              <category>shortcut</category>
+            
+          
+        
+        
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Big-O Cheat Sheet</title>
+        <link>https://ludeen007.github.io/en/posts/big-o-cheat-sheet/</link>
+        <pubDate>Sun, 08 Mar 2020 09:26:09 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 09:26:09 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/big-o-cheat-sheet/</guid>
+        <description>Big-O Cheat Sheet 常见数据结构的各种操作和排序算法的时间/空间复杂度 来自 https://www.bigocheatsheet.com/</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>深度探索C&#43;&#43;对象模型</title>
+        <link>https://ludeen007.github.io/en/posts/c&#43;&#43;/insidethecplusplusobjectmodel/</link>
+        <pubDate>Sun, 08 Mar 2020 08:53:09 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 08:53:09 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/c&#43;&#43;/insidethecplusplusobjectmodel/</guid>
+        <description>Contents of Inside the C++ Object Model 1. Object Lessons Layout Costs for Adding Encapsulation 1.1. The C++ Object Model A Simple Object Model A Table-driven Object Model The C++ Object Model Adding Inheritance How the Object Model Effects Programs 1.2. A Keyword Distinction Keywords, Schmeewords The Politically Correct Struct 1.3. An Object Distinction The Type of a Pointer Adding Polymorphism 2. The Semantics of Constructors 2.1. Default Constructor Construction</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>C&#43;&#43;</category>
+            
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+          
+            
+              <category>C&#43;&#43;</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Effective C&#43;&#43; Cheat Sheet</title>
+        <link>https://ludeen007.github.io/en/posts/c&#43;&#43;/effectivec&#43;&#43;/</link>
+        <pubDate>Sun, 08 Mar 2020 08:15:09 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 08:15:09 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/c&#43;&#43;/effectivec&#43;&#43;/</guid>
+        <description>Effective C++ ch1: Accustoming Yourself to C++ Item 1: View C++ as a federation of languages. Item 2: Prefer consts, enums, and inlines to #defines. Item 3: Use const whenever possible. Item 4: Make sure that objects are initialized before they’re used. ch2: Constructors, Destructors, and Assignment Operators Item 5: Know what functions C++ silently writes and calls. Item 6: Explicitly disallow the use of compiler-generated functions you do not want.</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>C&#43;&#43;</category>
+            
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+          
+            
+              <category>C&#43;&#43;</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Effective Modern C&#43;&#43; Cheat Sheet</title>
+        <link>https://ludeen007.github.io/en/posts/c&#43;&#43;/effectivemodernc&#43;&#43;/</link>
+        <pubDate>Sun, 08 Mar 2020 08:15:09 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 08:15:09 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/c&#43;&#43;/effectivemodernc&#43;&#43;/</guid>
+        <description>Effective Modern C++ 1.	Deducing Types Item 1: Understand template type deduction. Item 2: Understand auto type deduction. Item 3: Understand decltype. Item 4: Know how to view deduced types. 2.	auto Item 5: Prefer auto to explicit type declarations. Item 6: Use the explicitly typed initializer idiom when auto deduces undesired types. 3.	Moving to Modern C++ Item 7: Distinguish between () and Item 8: Prefer nullptr to 0 and NULL.</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>C&#43;&#43;</category>
+            
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+          
+            
+              <category>C&#43;&#43;</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Effective STL Cheat Sheet</title>
+        <link>https://ludeen007.github.io/en/posts/c&#43;&#43;/effectivestl/</link>
+        <pubDate>Sun, 08 Mar 2020 08:15:09 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 08:15:09 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/c&#43;&#43;/effectivestl/</guid>
+        <description>Effective STL 容器 条款1: 仔细选择你要的容器 条款2: 小心对“容器无关代码”的幻想 条款3: 使容器里对象的拷贝操作轻量而正确 条款4: 用empty来代替检查</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>C&#43;&#43;</category>
+            
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+          
+            
+              <category>C&#43;&#43;</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>More Effective C&#43;&#43; Cheat Sheet</title>
+        <link>https://ludeen007.github.io/en/posts/c&#43;&#43;/moreeffectivec&#43;&#43;/</link>
+        <pubDate>Sun, 08 Mar 2020 08:15:09 +0800</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        <atom:modified>Sun, 08 Mar 2020 08:15:09 +0800</atom:modified>
+        <guid>https://ludeen007.github.io/en/posts/c&#43;&#43;/moreeffectivec&#43;&#43;/</guid>
+        <description>More Effective C++ Basics Item 1: Distinguish between pointers and references Item 2: Prefer C++-style casts Item 3: Never treat arrays polymorphically Item 4: Avoid gratuitous default constructors Operators Item 5: Be wary of user-defined conversion functions Item 6: Distinguish between prefix and postfix forms of increment and decrement operators Item 7: Never overload &amp;amp;&amp;amp;, ||, or , Item 8: Understand the different meanings of new and delete Exceptions Item 9: Use destructors to prevent resource leaks Item 10: Prevent resource leaks in constructors Item 11: Prevent exceptions from leaving destructors Item 12: Understand how throwing an exception differs from passing a parameter or calling a virtual function Item 13: Catch exceptions by reference Item 14: Use exception specifications judiciously Item 15: Understand the costs of exception handling Efficiency Item 16: Remember the 80-20 rule Item 17: Consider using lazy evaluation Item 18: Amortize the cost of expected computations Item 19: Understand the origin of temporary objects Item 20: Facilitate the return value optimization Item 21: Overload to avoid implicit type conversions Item 22: Consider using op= instead of stand-alone op Item 23: Consider alternative libraries Item 24: Understand the costs of virtual functions, multiple inheritance, virtual base classes, and RTTI Techniques Item 25: Virtualizing constructors and non-member functions Item 26: Limiting the number of objects of a class Item 27: Requiring or prohibiting heap-based objects Item 28: Smart pointers Item 29: Reference counting Item 30: Proxy classes Item 31: Making functions virtual with respect to more than one object Miscellany Item 32: Program in the future tense Item 33: Make non-leaf classes abstract Item 34: Understand how to combine C++ and C in the same program Item 35: Familiarize yourself with the language standard </description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>C&#43;&#43;</category>
+            
+          
+            
+              <category>cheat-sheet</category>
+            
+          
+        
+        
+          
+            
+              <category>C&#43;&#43;</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
