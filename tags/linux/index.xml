@@ -28,7 +28,7 @@
         <author>ludeen007@gmail.com (jack)</author>
         
         <guid>https://ludeen007.github.io/en/posts/git/</guid>
-        <description>git 最佳实践 bash-git-prompt 在 bash 命令提示符后面，显示有用的 git 信息，比如有几个文件改动等 https://github.com/magicmonty/bash-git-prompt git 命令别名，减少打字 https://github.com/GitAlias/gitalias git cheat sheet https://github.com/arslanbilal/git-cheat-sheet git tips https://github.com/git-tips/tips git 命令 1 2 3 4 5 6 7 8 9 10 11 12 13</description>
+        <description>git 实用工具、使用技巧等 bash-git-prompt 在 bash 命令提示符后面，显示有用的 git 信息，比如有几个文件改动等 https://github.com/magicmonty/bash-git-prompt git 命令别名，减少打字 https://github.com/GitAlias/gitalias git cheat sheet https://github.com/arslanbilal/git-cheat-sheet git tips https://github.com/git-tips/tips 备忘的 git 命令 对比两个</description>
         
         <dc:creator>jack</dc:creator>
         

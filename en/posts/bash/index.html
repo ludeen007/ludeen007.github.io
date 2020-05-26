@@ -9,11 +9,11 @@
     
 
 
-<script src="/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js"></script>
+<script src="/js/enquire.min.dfb99dee1e029d51d6cfb672d847929890b1585402de17f5ed092edd72a688b4.js"></script>
 
-<script defer src="/js/lazysizes.min.5e11d056075a05065b9c0bfec44084a113fc2976c2952ec804dedb61c7662db9.js"></script>
+<script defer src="/js/lazysizes.min.31dd6a2d3a1ec0f78a8df007535cf23f03aeb5c70f026e6d6a19dac3b3acc340.js"></script>
 
-<script defer src="/js/fuse.min.c4bee9a8d44273d6154fe86006923d4131eb2e8069d8897687137c6f37f553e3.js"></script>
+<script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
 <script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
 
@@ -1249,7 +1249,7 @@
     "datePublished": "2020-03-08T09:46:09+08:00",
     "dateModified": "2020-03-08T09:46:09+08:00",
     "url" : "https://ludeen007.github.io/en/posts/bash/",
-    "description": "Bash Shell 快捷键 进程控制 Ctrl + C 终止命令执行 Ctrl + Z suspend command/send to background(use fg to bring forward) Ctrl + D 关闭Bash Shell 控制屏幕输出 Ctrl + L 清屏 Ctrl + S 停止输出到屏幕(for …",
+    "description": "Bash Shell 快捷键 进程控制 Ctrl + C 终止命令执行 Ctrl + Z suspend command/send to background(use fg to bring forward) Ctrl + D 关闭 Bash Shell 控制屏幕输出 Ctrl + L 清屏 Ctrl + S 停止输出到屏幕(for …",
     "keywords": ["cheat-sheet","shortcut"],
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -1518,7 +1518,7 @@
 <ul>
 <li>Ctrl + C 终止命令执行</li>
 <li>Ctrl + Z suspend command/send to background(use fg to bring forward)</li>
-<li>Ctrl + D 关闭Bash Shell</li>
+<li>Ctrl + D 关闭 Bash Shell</li>
 </ul>
 <h2 id="控制屏幕输出">控制屏幕输出</h2>
 <ul>
@@ -1531,8 +1531,8 @@
 <li>
 <p>行</p>
 <ul>
-<li>Ctrl + A 或 Home键 移到行首</li>
-<li>Ctrl + E 或 End键 移到行尾</li>
+<li>Ctrl + A 或 Home 键 移到行首</li>
+<li>Ctrl + E 或 End 键 移到行尾</li>
 <li>Ctrl + XX 在行首和光标位置之间移动</li>
 </ul>
 </li>
@@ -1580,8 +1580,8 @@
 <li>Ctrl + K 从光标位置开始，剪切到行尾</li>
 <li>Ctrl + W 从光标位置开始，剪切到词首</li>
 <li>Alt + D 从光标位置开始，剪切到词尾</li>
-<li>Ctrl + D 或 Delete键 剪切光标所在位置的字符</li>
-<li>Ctrl + H 或 Backspace键 剪切光标所在位置的前一个字符</li>
+<li>Ctrl + D 或 Delete 键 剪切光标所在位置的字符</li>
+<li>Ctrl + H 或 Backspace 键 剪切光标所在位置的前一个字符</li>
 </ul>
 </li>
 <li>粘贴
@@ -1593,8 +1593,49 @@
 <h2 id="感叹号命令">感叹号(!)命令</h2>
 <ul>
 <li>!! 执行前一个命令</li>
-<li>!!foo 执行前一个以foo开头的命令</li>
-<li>!foo:p 打印前一个以foo开头的命令</li>
+<li>!!foo 执行前一个以 foo 开头的命令</li>
+<li>!foo:p 打印前一个以 foo 开头的命令</li>
+<li>!$ change command keep last argument:<br />
+cat states.txt # file too long to fit screen<br />
+less !$ # reopen it with less</li>
+<li>!* change command keep all arguments:<br />
+head states.txt | grep &lsquo;^A1&rsquo; # should be tail<br />
+tail !* # no need to type the rest of the command</li>
+</ul>
+<h2 id="io-流和重定向">IO 流和重定向</h2>
+<ul>
+<li>终端的 3 个流及其文件描述符: stdin 0, stdout 1, stderr 2</li>
+<li>尖括号用来重定向:
+<ul>
+<li>
+<blockquote>
+<p>发送到流</p>
+</blockquote>
+</li>
+<li>&lt; 从流获取</li>
+<li>
+<blockquote>
+<blockquote>
+<p>追加到流</p>
+</blockquote>
+</blockquote>
+</li>
+<li>&laquo; 原地追加 heredoc</li>
+</ul>
+</li>
+<li>&amp; is used to &ldquo;write into&rdquo; a stream, eg. &amp;1 to write into stdout</li>
+<li>eg.
+<ul>
+<li>read from stdin as output of a command:</li>
+<li>diff &lt;(ls dirA) &lt;(ls dirB)</li>
+</ul>
+</li>
+<li>管道|:</li>
+<li>eg. the top 10 frequently used commands</li>
+<li>history | awk &lsquo;{a[$2]++}END{for(i in a){print a[i] &quot; &quot; i}}&rsquo; | sort -rn | head</li>
+<li>xargs: 1. converts standard input to commands into literal args 2. partitions the args to a permitted number and runs the command over them repeatedly</li>
+<li>eg. create files with names on the somelist.txt file:</li>
+<li>xargs touch &lt; somelist.txt</li>
 </ul>
 <p>源自 <a href="https://www.bigocheatsheet.com/">https://www.bigocheatsheet.com/</a><br />
 <a href="https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/">https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/</a></p>
@@ -2123,6 +2164,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <li><a href="#命令历史">命令历史</a></li>
     <li><a href="#剪切和粘贴">剪切和粘贴</a></li>
     <li><a href="#感叹号命令">感叹号(!)命令</a></li>
+    <li><a href="#io-流和重定向">IO 流和重定向</a></li>
   </ul>
 </nav>
   </div>
@@ -2198,7 +2240,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-<script defer src="/js/clipboard.min.c168d3a04c45a631be76437054619a4a3b30107960cb9730be96012fef5762b0.js"></script>
+<script defer src="/js/clipboard.min.1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44.js"></script>
 
 <script defer src="/js/helper/getParents.min.js"></script>
 

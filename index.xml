@@ -242,7 +242,7 @@
         <author>ludeen007@gmail.com (jack)</author>
         <atom:modified>Sun, 08 Mar 2020 09:46:09 +0800</atom:modified>
         <guid>https://ludeen007.github.io/en/posts/bash/</guid>
-        <description>Bash Shell 快捷键 进程控制 Ctrl + C 终止命令执行 Ctrl + Z suspend command/send to background(use fg to bring forward) Ctrl + D 关闭Bash Shell 控制屏幕输出 Ctrl + L 清屏 Ctrl + S 停止输出到屏幕(for verbose commands) Ctrl + Q 允</description>
+        <description>Bash Shell 快捷键 进程控制 Ctrl + C 终止命令执行 Ctrl + Z suspend command/send to background(use fg to bring forward) Ctrl + D 关闭 Bash Shell 控制屏幕输出 Ctrl + L 清屏 Ctrl + S 停止输出到屏幕(for verbose commands) Ctrl + Q 允许输出</description>
         
         <dc:creator>jack</dc:creator>
         
@@ -751,7 +751,7 @@ Operator precedence specifies the order of operations in expressions that contai
         <author>ludeen007@gmail.com (jack)</author>
         
         <guid>https://ludeen007.github.io/en/posts/git/</guid>
-        <description>git 最佳实践 bash-git-prompt 在 bash 命令提示符后面，显示有用的 git 信息，比如有几个文件改动等 https://github.com/magicmonty/bash-git-prompt git 命令别名，减少打字 https://github.com/GitAlias/gitalias git cheat sheet https://github.com/arslanbilal/git-cheat-sheet git tips https://github.com/git-tips/tips git 命令 1 2 3 4 5 6 7 8 9 10 11 12 13</description>
+        <description>git 实用工具、使用技巧等 bash-git-prompt 在 bash 命令提示符后面，显示有用的 git 信息，比如有几个文件改动等 https://github.com/magicmonty/bash-git-prompt git 命令别名，减少打字 https://github.com/GitAlias/gitalias git cheat sheet https://github.com/arslanbilal/git-cheat-sheet git tips https://github.com/git-tips/tips 备忘的 git 命令 对比两个</description>
         
         <dc:creator>jack</dc:creator>
         
@@ -769,6 +769,176 @@ Operator precedence specifies the order of operations in expressions that contai
           
             
               <category>Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Bash命令</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>grep</title>
+        <link>https://ludeen007.github.io/en/posts/awk/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/en/posts/awk/</guid>
+        <description>awk 使用例子 使用技巧等 awk: Extract and Manipulate Data • A programmable filter that reads and processes input line by line • Rich built-in features: • explicit fields ($1 &amp;hellip; $NF) &amp;amp; records management • functions (math, string manipulation, etc.) • regular expressions parsing and filtering • Features like variables, loops, conditionals, associative arrays,userdefined functions Highly recommended book: The awk programming language by Aho,</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Bash命令</category>
+            
+          
+            
+              <category>awk</category>
+            
+          
+        
+        
+          
+            
+              <category>Bash命令</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>grep</title>
+        <link>https://ludeen007.github.io/en/posts/find/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/en/posts/find/</guid>
+        <description>find 使用例子 使用技巧等 find /opt -name &amp;ldquo;README*&amp;rdquo; -exec wc -l {} + Features of find • path: may have multiple paths, eg. find /usr /opt -iname &amp;ldquo;*.so&amp;rdquo; • criteria • -name, -iname, -type (f,d,l), -inum • -user , -group , -perm (ugo) • -size +x[c], -empty, -newer • -atime +x, -amin +x, -mmin -x, -mtime -x • criteria may be combined with logical</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Bash命令</category>
+            
+          
+            
+              <category>find</category>
+            
+          
+        
+        
+          
+            
+              <category>Bash命令</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>grep</title>
+        <link>https://ludeen007.github.io/en/posts/grep/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/en/posts/grep/</guid>
+        <description>grep 使用例子 使用技巧等 递归查找特定文件中的字符串 grep -r -i &amp;ndash;include *.json &amp;quot;moment&amp;quot; /some/dir/ grep -i -n &amp;lsquo;col&amp;rsquo; states.txt Useful grep Options • -i: ignore case • -n: display line numbers along with lines • -v: print inverse ie. lines that do not match the regular expression • -c: print a count of lines</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Bash命令</category>
+            
+          
+            
+              <category>grep</category>
+            
+          
+        
+        
+          
+            
+              <category>Bash命令</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>grep</title>
+        <link>https://ludeen007.github.io/en/posts/ls/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/en/posts/ls/</guid>
+        <description>ls 使用例子 使用技巧等</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Bash命令</category>
+            
+          
+            
+              <category>ls</category>
+            
+          
+        
+        
+          
+            
+              <category>Bash命令</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>grep</title>
+        <link>https://ludeen007.github.io/en/posts/sed/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/en/posts/sed/</guid>
+        <description>sed 使用例子 使用技巧等 sed: parse and transform text • sed is a stream editor • Looks for a pattern in text and applies changes (edits) to them • A batch or non-interactive editor • Reads from file or stdin (so, pipes are good) one line at a time • The original input file is unchanged (sed is also a filter), results are sent</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Bash命令</category>
+            
+          
+            
+              <category>sed</category>
             
           
         

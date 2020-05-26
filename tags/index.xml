@@ -221,6 +221,24 @@
       </item>
       
       <item>
+        <title>awk</title>
+        <link>https://ludeen007.github.io/tags/awk/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/tags/awk/</guid>
+        <description></description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Bash命令</title>
         <link>https://ludeen007.github.io/tags/bash%E5%91%BD%E4%BB%A4/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -311,12 +329,48 @@
       </item>
       
       <item>
+        <title>find</title>
+        <link>https://ludeen007.github.io/tags/find/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/tags/find/</guid>
+        <description></description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>frontend</title>
         <link>https://ludeen007.github.io/tags/frontend/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>ludeen007@gmail.com (jack)</author>
         
         <guid>https://ludeen007.github.io/tags/frontend/</guid>
+        <description></description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>grep</title>
+        <link>https://ludeen007.github.io/tags/grep/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/tags/grep/</guid>
         <description></description>
         
         <dc:creator>jack</dc:creator>
@@ -383,6 +437,24 @@
       </item>
       
       <item>
+        <title>ls</title>
+        <link>https://ludeen007.github.io/tags/ls/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/tags/ls/</guid>
+        <description></description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>notes</title>
         <link>https://ludeen007.github.io/tags/notes/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -407,6 +479,24 @@
         <author>ludeen007@gmail.com (jack)</author>
         
         <guid>https://ludeen007.github.io/tags/openssl/</guid>
+        <description></description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>sed</title>
+        <link>https://ludeen007.github.io/tags/sed/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/tags/sed/</guid>
         <description></description>
         
         <dc:creator>jack</dc:creator>

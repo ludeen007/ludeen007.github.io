@@ -9,11 +9,11 @@
     
 
 
-<script src="/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js"></script>
+<script src="/js/enquire.min.dfb99dee1e029d51d6cfb672d847929890b1585402de17f5ed092edd72a688b4.js"></script>
 
-<script defer src="/js/lazysizes.min.5e11d056075a05065b9c0bfec44084a113fc2976c2952ec804dedb61c7662db9.js"></script>
+<script defer src="/js/lazysizes.min.31dd6a2d3a1ec0f78a8df007535cf23f03aeb5c70f026e6d6a19dac3b3acc340.js"></script>
 
-<script defer src="/js/fuse.min.c4bee9a8d44273d6154fe86006923d4131eb2e8069d8897687137c6f37f553e3.js"></script>
+<script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
 <script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
 
@@ -1786,6 +1786,44 @@ find . -name <span class="s1">&#39;*.cpp&#39;</span> -exec sh -c <span class="s1
 <span class="k">done</span>
 </code></pre></td></tr></table>
 </div>
+</div><h2 id="grep">grep</h2>
+<h3 id="排除某个目录搜索字符串">排除某个目录搜索字符串</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">grep -R --exclude-dir<span class="o">=</span>node_modules <span class="s1">&#39;.requestMq(&#39;</span> .
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="sudo-echo-something--etcprivilegedfile-doesnt-work">sudo echo “something” &raquo; /etc/privilegedFile doesn&rsquo;t work</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s1">&#39;deb blah ... blah&#39;</span> <span class="p">|</span> sudo tee -a /etc/apt/sources.list
+<span class="c1"># To avoid printing data back to the console, redirect the output to /dev/null</span>
+<span class="nb">echo</span> <span class="s1">&#39;deb blah ... blah&#39;</span> <span class="p">|</span> sudo tee -a /etc/apt/sources.list &gt; /dev/null
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="使用inode-number-删除文件">使用inode number 删除文件</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 列出文件的inode number</span>
+ls -il
+<span class="c1"># 删除</span>
+find . -inum inode_number -exec rm -i <span class="o">{}</span> <span class="se">\;</span>
+</code></pre></td></tr></table>
+</div>
 </div>
     </article>
     
@@ -1906,6 +1944,22 @@ find . -name <span class="s1">&#39;*.cpp&#39;</span> -exec sh -c <span class="s1
         
         <li>
           <a href="/en/posts/git/" class="related__link">git</a>
+        </li>
+        
+        <li>
+          <a href="/en/posts/ls/" class="related__link">grep</a>
+        </li>
+        
+        <li>
+          <a href="/en/posts/find/" class="related__link">grep</a>
+        </li>
+        
+        <li>
+          <a href="/en/posts/sed/" class="related__link">grep</a>
+        </li>
+        
+        <li>
+          <a href="/en/posts/grep/" class="related__link">grep</a>
         </li>
         
     </ul>
@@ -2301,6 +2355,13 @@ document.addEventListener('DOMContentLoaded', function () {
     <li><a href="#拷贝目录但排除某些目录">拷贝目录，但排除某些目录</a></li>
     <li><a href="#crontab">crontab</a></li>
     <li><a href="#rabbimqadmin">rabbimqadmin</a></li>
+    <li><a href="#grep">grep</a>
+      <ul>
+        <li><a href="#排除某个目录搜索字符串">排除某个目录搜索字符串</a></li>
+        <li><a href="#sudo-echo-something--etcprivilegedfile-doesnt-work">sudo echo “something” &raquo; /etc/privilegedFile doesn&rsquo;t work</a></li>
+      </ul>
+    </li>
+    <li><a href="#使用inode-number-删除文件">使用inode number 删除文件</a></li>
   </ul>
 </nav>
   </div>
@@ -2376,7 +2437,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-<script defer src="/js/clipboard.min.c168d3a04c45a631be76437054619a4a3b30107960cb9730be96012fef5762b0.js"></script>
+<script defer src="/js/clipboard.min.1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44.js"></script>
 
 <script defer src="/js/helper/getParents.min.js"></script>
 

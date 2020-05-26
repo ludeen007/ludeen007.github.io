@@ -191,7 +191,7 @@
         <author>ludeen007@gmail.com (jack)</author>
         <atom:modified>Sun, 08 Mar 2020 09:46:09 +0800</atom:modified>
         <guid>https://ludeen007.github.io/en/posts/bash/</guid>
-        <description>Bash Shell 快捷键 进程控制 Ctrl + C 终止命令执行 Ctrl + Z suspend command/send to background(use fg to bring forward) Ctrl + D 关闭Bash Shell 控制屏幕输出 Ctrl + L 清屏 Ctrl + S 停止输出到屏幕(for verbose commands) Ctrl + Q 允</description>
+        <description>Bash Shell 快捷键 进程控制 Ctrl + C 终止命令执行 Ctrl + Z suspend command/send to background(use fg to bring forward) Ctrl + D 关闭 Bash Shell 控制屏幕输出 Ctrl + L 清屏 Ctrl + S 停止输出到屏幕(for verbose commands) Ctrl + Q 允许输出</description>
         
         <dc:creator>jack</dc:creator>
         

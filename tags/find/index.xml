@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>find on 千里之行始于足下</title>
+    <link>https://ludeen007.github.io/tags/find/</link>
+    <description>Recent content in find on 千里之行始于足下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ludeen007@gmail.com (jack)</managingEditor>
+    <webMaster>ludeen007@gmail.com (jack)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="https://ludeen007.github.io/tags/find/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>grep</title>
+        <link>https://ludeen007.github.io/en/posts/find/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/en/posts/find/</guid>
+        <description>find 使用例子 使用技巧等 find /opt -name &amp;ldquo;README*&amp;rdquo; -exec wc -l {} + Features of find • path: may have multiple paths, eg. find /usr /opt -iname &amp;ldquo;*.so&amp;rdquo; • criteria • -name, -iname, -type (f,d,l), -inum • -user , -group , -perm (ugo) • -size +x[c], -empty, -newer • -atime +x, -amin +x, -mmin -x, -mtime -x • criteria may be combined with logical</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Bash命令</category>
+            
+          
+            
+              <category>find</category>
+            
+          
+        
+        
+          
+            
+              <category>Bash命令</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

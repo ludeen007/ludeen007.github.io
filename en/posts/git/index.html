@@ -9,11 +9,11 @@
     
 
 
-<script src="/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js"></script>
+<script src="/js/enquire.min.dfb99dee1e029d51d6cfb672d847929890b1585402de17f5ed092edd72a688b4.js"></script>
 
-<script defer src="/js/lazysizes.min.5e11d056075a05065b9c0bfec44084a113fc2976c2952ec804dedb61c7662db9.js"></script>
+<script defer src="/js/lazysizes.min.31dd6a2d3a1ec0f78a8df007535cf23f03aeb5c70f026e6d6a19dac3b3acc340.js"></script>
 
-<script defer src="/js/fuse.min.c4bee9a8d44273d6154fe86006923d4131eb2e8069d8897687137c6f37f553e3.js"></script>
+<script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
 <script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
 
@@ -1249,7 +1249,7 @@
     "datePublished": "0001-01-01T00:00:00Z",
     "dateModified": "0001-01-01T00:00:00Z",
     "url" : "https://ludeen007.github.io/en/posts/git/",
-    "description": "git 最佳实践 bash-git-prompt 在 bash 命令提示符后面，显示有用的 git 信息，比如有几个文件改动等 https://github.com/magicmonty/bash-git-prompt git 命令别名，减少打字 https://github.com/GitAlias/gitalias git cheat …",
+    "description": "git 实用工具、使用技巧等 bash-git-prompt 在 bash 命令提示符后面，显示有用的 git 信息，比如有几个文件改动等 https://github.com/magicmonty/bash-git-prompt git 命令别名，减少打字 https://github.com/GitAlias/gitalias git …",
     "keywords": ["Bash命令","Git","Linux"],
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -1516,146 +1516,77 @@
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <h2 id="git-最佳实践">git 最佳实践</h2>
-<h3 id="bash-git-prompt">bash-git-prompt</h3>
+      <p>git 实用工具、使用技巧等</p>
+<h2 id="bash-git-prompt">bash-git-prompt</h2>
 <p>在 bash 命令提示符后面，显示有用的 git 信息，比如有几个文件改动等<br />
 <a href="https://github.com/magicmonty/bash-git-prompt">https://github.com/magicmonty/bash-git-prompt</a></p>
-<h3 id="git-命令别名减少打字">git 命令别名，减少打字</h3>
+<h2 id="git-命令别名减少打字">git 命令别名，减少打字</h2>
 <p><a href="https://github.com/GitAlias/gitalias">https://github.com/GitAlias/gitalias</a></p>
-<h3 id="git-cheat-sheet">git cheat sheet</h3>
+<h2 id="git-cheat-sheet">git cheat sheet</h2>
 <p><a href="https://github.com/arslanbilal/git-cheat-sheet">https://github.com/arslanbilal/git-cheat-sheet</a></p>
-<h3 id="git-tips">git tips</h3>
+<h2 id="git-tips">git tips</h2>
 <p><a href="https://github.com/git-tips/tips">https://github.com/git-tips/tips</a></p>
-<h2 id="git-命令">git 命令</h2>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span><span class="lnt">37
-</span><span class="lnt">38
-</span><span class="lnt">39
-</span><span class="lnt">40
-</span><span class="lnt">41
-</span><span class="lnt">42
-</span><span class="lnt">43
-</span><span class="lnt">44
-</span><span class="lnt">45
-</span><span class="lnt">46
-</span><span class="lnt">47
-</span><span class="lnt">48
-</span><span class="lnt">49
-</span><span class="lnt">50
-</span><span class="lnt">51
-</span><span class="lnt">52
-</span><span class="lnt">53
-</span><span class="lnt">54
-</span><span class="lnt">55
-</span><span class="lnt">56
-</span><span class="lnt">57
-</span><span class="lnt">58
-</span><span class="lnt">59
-</span><span class="lnt">60
-</span><span class="lnt">61
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#对比两个分支</span>
-git diff branch1..branch2
+<h2 id="备忘的-git-命令">备忘的 git 命令</h2>
+<h3 id="对比两个分支">对比两个分支</h3>
+<p>git diff branch1..branch2</p>
+<h3 id="避免-git-push-每次都要输入用户名和密码">避免 git push 每次都要输入用户名和密码</h3>
+<p>注：有安全风险<br />
+git config credential.helper store</p>
+<h3 id="当改了很多代码却又只想提交某部分修改">当改了很多代码，却又只想提交某部分修改</h3>
+<p>git add &ndash;patch filename</p>
+<h3 id="查看-diff只看新增和修改不看删除等">查看 diff，只看新增和修改，不看删除等</h3>
+<p>git diff &ndash;diff-filter=AM</p>
+<h3 id="格式化-git-commit-message">格式化 git commit message</h3>
+<p>npx git-cz</p>
+<h3 id="添加子模块">添加子模块</h3>
+<p>一个 git 仓库为另一个 git 仓库下的子目录，同时保持独立的 git 记录<br />
+git submodule add <a href="https://github.com/user/repo">https://github.com/user/repo</a><br />
+详见 <a href="https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97">https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97</a></p>
+<h3 id="修改分支名">修改分支名</h3>
+<p>git branch -m src dst</p>
+<h3 id="开分支">开分支</h3>
+<ol>
+<li>远程先开好分支然后拉到本地<br />
+git checkout -b feature-branch origin/feature-branch //检出远程的 feature-branch 分支到本地</li>
+<li>本地先开好分支然后推送到远程<br />
+git checkout -b feature-branch //创建并切换到分支 feature-branch<br />
+git push origin feature-branch:feature-branch //推送本地的 feature-branch(冒号前面的)分支到远程 origin 的 feature-branch(冒号后面的)分支(没有会自动创建)<br />
+来自 <a href="https://www.cnblogs.com/qyf404/p/git_push_local_branch_to_remote.html">https://www.cnblogs.com/qyf404/p/git_push_local_branch_to_remote.html</a></li>
+</ol>
+<h3 id="pushpull-时git-协议不行就换-http-协议操作">push/pull 时，git 协议不行就换 http 协议操作</h3>
+<h3 id="查询某个-git-仓库的-hooks-目录位置">查询某个 git 仓库的 hooks 目录位置</h3>
+<p>一般来说是.git/hooks，但是 submodule 会有所不同<br />
+git rev-parse &ndash;git-path hooks</p>
+<h3 id="对比两个-git-分支且忽略指定目录">对比两个 git 分支，且忽略指定目录</h3>
+<p>git diff alpha tmp &ndash;name-only | grep -v &ldquo;dir-name&rdquo;</p>
+<h3 id="对比两个-git-分支且忽略指定目录和文件">对比两个 git 分支，且忽略指定目录和文件</h3>
+<p>git diff accfa7d7 HEAD &ldquo;:(exclude)node_modules/&rdquo; &ldquo;:(exclude)*.yaml&rdquo;</p>
+<p>如果经常需要忽略某个目录，比如 node_modules/，可以在/etc/profile 加入环境变量<br />
+EXCL=&rdquo;:(exclude)node_modules/&rdquo;<br />
+然后执行命令时引用它<br />
+git diff &ndash;cached &ndash;name-only $EXCL</p>
+<h3 id="conditional-config-on-windows">conditional config on Windows</h3>
+<p>在 Windows 系统的某些目录下用新的配置文件<br />
+.gitconfig 添加 includeIf 定制某些目录下 git 用别的配置文件<br />
+示例：目录 c:/directory-name/subdir/下，用 email <a href="mailto:user2@two.com">user2@two.com</a> 而不是全局的 email <a href="mailto:user1@one.com">user1@one.com</a><br />
+.gitconfig 内容示例<br />
+[user]<br />
+name = user1<br />
+email = <a href="mailto:user1@one.com">user1@one.com</a><br />
+[includeIf &ldquo;gitdir/i:c:/directory-name/subdir/&quot;]<br />
+path = .gitconfig-another<br />
+.gitconfig-another 设置别的配置项，比如 email<br />
+.gitconfig-another 内容示例<br />
+[user]<br />
+email = <a href="mailto:user2@two.com">user2@two.com</a></p>
+<h3 id="stash-only-specific-files">stash only specific files</h3>
+<p>git stash push -p -m some-message dir1/file1 dir2/file2</p>
+<h3 id="stage-the-modified-and-deleted-files-exclude-untracked-files">stage the modified and deleted files, exclude untracked files</h3>
+<p>git add -u</p>
+<h3 id="find-the-latest-10-commits">find the latest 10 commits</h3>
+<p>If you want commits for all branches you need the &ndash;all argument, limit git log to ten with -10 and use &ndash;date-order to tell git log to sort the commits with respect to date.<br />
+git log -10 &ndash;all &ndash;date-order</p>
 
-<span class="c1">#避免git push每次都要输入用户名和密码 (有安全风险)</span>
-git config credential.helper store
-
-<span class="c1">#当改了很多代码，却又只想提交某部分修改，用以下命令，详见https://stackoverflow.com/questions/1085162/commit-only-part-of-a-file-in-git</span>
-git add --patch filename
-
-<span class="c1">#查看diff，只看新增和修改，不看删除等</span>
-git diff --diff-filter<span class="o">=</span>AM
-
-<span class="c1">#格式化git commit message</span>
-npx git-cz
-
-<span class="c1">#添加子模块（一个git仓库为另一个git仓库下的子目录，同时保持独立的git记录）</span>
-git submodule add https://github.com/chaconinc/DbConnector
-
-<span class="c1">#详见 https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97</span>
-
-<span class="c1">#修改分支名</span>
-git branch -m src dst
-
-<span class="c1">#开分支</span>
-<span class="c1">#1. 远程先开好分支然后拉到本地</span>
-git checkout -b feature-branch origin/feature-branch    //检出远程的feature-branch分支到本地
-<span class="c1">#2. 本地先开好分支然后推送到远程</span>
-git checkout -b feature-branch    //创建并切换到分支feature-branch
-git push origin feature-branch:feature-branch    //推送本地的feature-branch<span class="o">(</span>冒号前面的<span class="o">)</span>分支到远程origin的feature-branch<span class="o">(</span>冒号后面的<span class="o">)</span>分支<span class="o">(</span>没有会自动创建<span class="o">)</span>
-
-<span class="c1">#来自 &lt;https://www.cnblogs.com/qyf404/p/git_push_local_branch_to_remote.html&gt;</span>
-
-
-<span class="c1">#push/pull时，git协议不行就换http协议操作</span>
-
-<span class="c1">#查询某个git仓库的hooks目录位置（一般来说是.git/hooks，但是submodule会有所不同）</span>
-git rev-parse --git-path hooks
-
-<span class="c1">#对比两个git分支，且忽略指定目录的不同</span>
-git diff alpha tmp --name-only <span class="p">|</span> grep -v <span class="s2">&#34;crypto-config&#34;</span>
-<span class="c1">#对比两个git分支，且忽略指定目录和文件</span>
-git diff accfa7d7  HEAD <span class="s2">&#34;:(exclude)node_modules/&#34;</span> <span class="s2">&#34;:(exclude)*.yaml&#34;</span>
-
-<span class="c1">#如果经常需要忽略某个目录，比如node_modules/，可以在/etc/profile加入环境变量</span>
-<span class="nv">EXCL</span><span class="o">=</span><span class="s2">&#34;:(exclude)node_modules/&#34;</span>
-<span class="c1">#然后执行命令时引用它</span>
-git diff --cached --name-only <span class="nv">$EXCL</span>
-
-<span class="c1">#conditional config on Windows，在Windows系统的某些目录下用新的配置文件</span>
-.gitconfig添加includeIf定制某些目录下git用别的配置文件
-示例：目录c:/directory-name/subdir/下，用email user2@two.com而不是全局的email user1@one.com
-.gitconfig内容示例
-<span class="o">[</span>user<span class="o">]</span>
-        <span class="nv">name</span> <span class="o">=</span> user1
-        <span class="nv">email</span> <span class="o">=</span> user1@one.com
-<span class="o">[</span>includeIf <span class="s2">&#34;gitdir/i:c:/directory-name/subdir/&#34;</span><span class="o">]</span>
-        <span class="nv">path</span> <span class="o">=</span> .gitconfig-another
-.gitconfig-another 设置别的配置项，比如 email
-.gitconfig-another内容示例
-<span class="o">[</span>user<span class="o">]</span>
-        <span class="nv">email</span> <span class="o">=</span> user2@two.com
-</code></pre></td></tr></table>
-</div>
-</div>
     </article>
     
     <script>
@@ -1781,6 +1712,18 @@ git diff --cached --name-only <span class="nv">$EXCL</span>
           <a href="/en/posts/linux/" class="related__link">bash</a>
         </li>
         
+        <li>
+          <a href="/en/posts/sed/" class="related__link">grep</a>
+        </li>
+        
+        <li>
+          <a href="/en/posts/ls/" class="related__link">grep</a>
+        </li>
+        
+        <li>
+          <a href="/en/posts/find/" class="related__link">grep</a>
+        </li>
+        
     </ul>
     
   </section>
@@ -1788,11 +1731,11 @@ git diff --cached --name-only <span class="nv">$EXCL</span>
 <nav class="pagination-single">
   
     
-      <a href="https://ludeen007.github.io/en/posts/know-how/" class="pagination-single__left">
+      <a href="https://ludeen007.github.io/en/posts/awk/" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__left-title">know-how</div>      
+        <div class="pagination-single__left-title">grep</div>      
       </a>
     
     <div class="grow"></div>
@@ -2160,15 +2103,30 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="toc " data-dir="ltr" data-folding="true" data-ani="true">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#git-最佳实践">git 最佳实践</a>
+    <li><a href="#bash-git-prompt">bash-git-prompt</a></li>
+    <li><a href="#git-命令别名减少打字">git 命令别名，减少打字</a></li>
+    <li><a href="#git-cheat-sheet">git cheat sheet</a></li>
+    <li><a href="#git-tips">git tips</a></li>
+    <li><a href="#备忘的-git-命令">备忘的 git 命令</a>
       <ul>
-        <li><a href="#bash-git-prompt">bash-git-prompt</a></li>
-        <li><a href="#git-命令别名减少打字">git 命令别名，减少打字</a></li>
-        <li><a href="#git-cheat-sheet">git cheat sheet</a></li>
-        <li><a href="#git-tips">git tips</a></li>
+        <li><a href="#对比两个分支">对比两个分支</a></li>
+        <li><a href="#避免-git-push-每次都要输入用户名和密码">避免 git push 每次都要输入用户名和密码</a></li>
+        <li><a href="#当改了很多代码却又只想提交某部分修改">当改了很多代码，却又只想提交某部分修改</a></li>
+        <li><a href="#查看-diff只看新增和修改不看删除等">查看 diff，只看新增和修改，不看删除等</a></li>
+        <li><a href="#格式化-git-commit-message">格式化 git commit message</a></li>
+        <li><a href="#添加子模块">添加子模块</a></li>
+        <li><a href="#修改分支名">修改分支名</a></li>
+        <li><a href="#开分支">开分支</a></li>
+        <li><a href="#pushpull-时git-协议不行就换-http-协议操作">push/pull 时，git 协议不行就换 http 协议操作</a></li>
+        <li><a href="#查询某个-git-仓库的-hooks-目录位置">查询某个 git 仓库的 hooks 目录位置</a></li>
+        <li><a href="#对比两个-git-分支且忽略指定目录">对比两个 git 分支，且忽略指定目录</a></li>
+        <li><a href="#对比两个-git-分支且忽略指定目录和文件">对比两个 git 分支，且忽略指定目录和文件</a></li>
+        <li><a href="#conditional-config-on-windows">conditional config on Windows</a></li>
+        <li><a href="#stash-only-specific-files">stash only specific files</a></li>
+        <li><a href="#stage-the-modified-and-deleted-files-exclude-untracked-files">stage the modified and deleted files, exclude untracked files</a></li>
+        <li><a href="#find-the-latest-10-commits">find the latest 10 commits</a></li>
       </ul>
     </li>
-    <li><a href="#git-命令">git 命令</a></li>
   </ul>
 </nav>
   </div>
@@ -2244,7 +2202,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-<script defer src="/js/clipboard.min.c168d3a04c45a631be76437054619a4a3b30107960cb9730be96012fef5762b0.js"></script>
+<script defer src="/js/clipboard.min.1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44.js"></script>
 
 <script defer src="/js/helper/getParents.min.js"></script>
 
