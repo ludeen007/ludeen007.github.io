@@ -22,6 +22,40 @@
 
       
       <item>
+        <title>awk</title>
+        <link>https://ludeen007.github.io/en/posts/awk/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/en/posts/awk/</guid>
+        <description>awk 使用例子 使用技巧等 awk: Extract and Manipulate Data • A programmable filter that reads and processes input line by line • Rich built-in features: • explicit fields ($1 &amp;hellip; $NF) &amp;amp; records management • functions (math, string manipulation, etc.) • regular expressions parsing and filtering • Features like variables, loops, conditionals, associative arrays,userdefined functions Highly recommended book: The awk programming language by Aho,</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Bash命令</category>
+            
+          
+            
+              <category>awk</category>
+            
+          
+        
+        
+          
+            
+              <category>Bash命令</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
         <title>bash</title>
         <link>https://ludeen007.github.io/en/posts/linux/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -38,6 +72,40 @@
           
             
               <category>Bash命令</category>
+            
+          
+        
+        
+          
+            
+              <category>Bash命令</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>find</title>
+        <link>https://ludeen007.github.io/en/posts/find/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>ludeen007@gmail.com (jack)</author>
+        
+        <guid>https://ludeen007.github.io/en/posts/find/</guid>
+        <description>find 使用例子 使用技巧等 find /opt -name &amp;ldquo;README*&amp;rdquo; -exec wc -l {} + Features of find • path: may have multiple paths, eg. find /usr /opt -iname &amp;ldquo;*.so&amp;rdquo; • criteria • -name, -iname, -type (f,d,l), -inum • -user , -group , -perm (ugo) • -size +x[c], -empty, -newer • -atime +x, -amin +x, -mmin -x, -mtime -x • criteria may be combined with logical</description>
+        
+        <dc:creator>jack</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Bash命令</category>
+            
+          
+            
+              <category>find</category>
             
           
         
@@ -91,74 +159,6 @@
       
       <item>
         <title>grep</title>
-        <link>https://ludeen007.github.io/en/posts/awk/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        <author>ludeen007@gmail.com (jack)</author>
-        
-        <guid>https://ludeen007.github.io/en/posts/awk/</guid>
-        <description>awk 使用例子 使用技巧等 awk: Extract and Manipulate Data • A programmable filter that reads and processes input line by line • Rich built-in features: • explicit fields ($1 &amp;hellip; $NF) &amp;amp; records management • functions (math, string manipulation, etc.) • regular expressions parsing and filtering • Features like variables, loops, conditionals, associative arrays,userdefined functions Highly recommended book: The awk programming language by Aho,</description>
-        
-        <dc:creator>jack</dc:creator>
-        
-        
-        
-        
-          
-            
-              <category>Bash命令</category>
-            
-          
-            
-              <category>awk</category>
-            
-          
-        
-        
-          
-            
-              <category>Bash命令</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
-        <title>grep</title>
-        <link>https://ludeen007.github.io/en/posts/find/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        <author>ludeen007@gmail.com (jack)</author>
-        
-        <guid>https://ludeen007.github.io/en/posts/find/</guid>
-        <description>find 使用例子 使用技巧等 find /opt -name &amp;ldquo;README*&amp;rdquo; -exec wc -l {} + Features of find • path: may have multiple paths, eg. find /usr /opt -iname &amp;ldquo;*.so&amp;rdquo; • criteria • -name, -iname, -type (f,d,l), -inum • -user , -group , -perm (ugo) • -size +x[c], -empty, -newer • -atime +x, -amin +x, -mmin -x, -mtime -x • criteria may be combined with logical</description>
-        
-        <dc:creator>jack</dc:creator>
-        
-        
-        
-        
-          
-            
-              <category>Bash命令</category>
-            
-          
-            
-              <category>find</category>
-            
-          
-        
-        
-          
-            
-              <category>Bash命令</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
-        <title>grep</title>
         <link>https://ludeen007.github.io/en/posts/grep/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>ludeen007@gmail.com (jack)</author>
@@ -192,7 +192,7 @@
       </item>
       
       <item>
-        <title>grep</title>
+        <title>ls</title>
         <link>https://ludeen007.github.io/en/posts/ls/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>ludeen007@gmail.com (jack)</author>
@@ -226,7 +226,7 @@
       </item>
       
       <item>
-        <title>grep</title>
+        <title>sed</title>
         <link>https://ludeen007.github.io/en/posts/sed/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>ludeen007@gmail.com (jack)</author>
